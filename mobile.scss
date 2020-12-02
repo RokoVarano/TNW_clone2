@@ -443,6 +443,37 @@
           }
 
         }
+
+        .pink-card {
+          display: flex;
+          flex-direction: row;
+          background-color: pink;
+          margin: 2px 0;
+
+          header {
+            flex: 1;
+            overflow: hidden;
+            padding: 10px 14px 0;
+            color: red;
+
+            h5 {
+              font-size: 13px;
+              font-family: Shentox, sans-serif;
+              text-transform: uppercase;
+              line-height: 1.5;
+            }
+
+            h4 {
+              max-height: 56px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              width: 100%;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 1.25;
+            }
+          }
+        }
       }
     }
   }
