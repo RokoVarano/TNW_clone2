@@ -349,6 +349,14 @@
     display: flex;
     flex-flow: row wrap;
 
+    h4 {
+      margin: 0;
+    }
+
+    h5 {
+      margin: 0
+    }
+
     section {
       flex-basis: 100%;
       max-width: 100%;
@@ -369,12 +377,16 @@
       }
       ul {
         position: relative;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 
         .picture {
           background-image: url("assets/slack.jpg");
           background-size: cover;
           background-position: center;
-          position: absolute;
+          position: relative;
           bottom: 0;
           left: 0;
           right: 0;
@@ -403,7 +415,7 @@
             left: 0;
             padding: 14px;
             color: white;
-            font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+            font-family: inherit;
             z-index: 3;
 
             h5 {
@@ -450,17 +462,20 @@
           background-color: pink;
           margin: 2px 0;
 
+
           header {
             flex: 1;
             overflow: hidden;
             padding: 10px 14px 0;
             color: red;
+            z-index: 9;
 
             h5 {
               font-size: 13px;
               font-family: Shentox, sans-serif;
               text-transform: uppercase;
               line-height: 1.5;
+              margin: 0;
             }
 
             h4 {
@@ -471,18 +486,41 @@
               font-size: 14px;
               font-weight: 700;
               line-height: 1.25;
+
+              a {
+                color: red;
+                text-decoration: none;
+                font-family: inherit;
+              }
             }
           }
+
+          .photo-link {
+            background-image: url("assets/beard.jpg");
+            flex: 0 0 96px;
+            height: 96px;
+            width: 96px;
+            background-position: center;
+            background-size: cover;
+          }
+        }
+
+        .headline {
+          border-bottom: 1px solid gray;
+          font-size: 13px;
+          padding: 6px 0;
+        }
+
+        a {
+          color: gray;
+          text-decoration: none;
         }
       }
     }
   }
-
-  //BIG CARDS - End
-
-
 }
 
+//BIG CARDS - End
 //WRAPPER CLASS - End
 
 
