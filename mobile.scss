@@ -232,6 +232,31 @@
 
   .funding {
     padding-bottom: 2em;
+
+    header {
+      margin-bottom: 24px;
+      display: flex;
+      flex-flow: column;
+      font-family: Avalon,sans-serif;
+      letter-spacing: -.015em;
+
+      h2 {
+        margin-top: 0;
+        margin-bottom: 14px;
+        color: red;
+
+        a {
+          font-size: 28px;
+        }
+      }
+
+      a {
+        font-size: 14px;
+        margin-top: 23px;
+        color: red;
+        text-decoration: none;
+      }
+    }
   }
 
   //LATEST NEWS - End
