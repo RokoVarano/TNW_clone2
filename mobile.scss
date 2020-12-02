@@ -130,6 +130,7 @@
       list-style: none;
 
       %card-container {
+        padding: 8px;
         flex-basis: 100%;
         max-width: 100%;
         display: flex;
@@ -225,6 +226,112 @@
           background: url("assets/phone-camera.jpg") center;
         }
       }
+    }
+
+  }
+
+  .funding {
+    padding-bottom: 2em;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      margin-bottom: 24px;
+      display: flex;
+      flex-flow: column;
+      font-family: Avalon, sans-serif;
+      letter-spacing: -.015em;
+      color: red;
+
+      h2 {
+        margin-top: 0;
+        margin-bottom: 14px;
+
+        a {
+          font-size: 28px;
+        }
+      }
+
+      a {
+        font-size: 14px;
+        margin-top: 23px;
+      }
+    }
+
+    .card {
+      background: rgba(255, 68, 34, .07);
+      font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+
+      .card-header {
+        display: flex;
+        flex-flow: column;
+        position: relative;
+
+
+        img {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 60px;
+          height: 60px;
+          margin: 10px;
+          z-index: 10;
+        }
+
+        h4 {
+          margin: 0;
+          color: white;
+          padding: 10px 0 10px 80px;
+          background: red;
+          font-size: 18px;
+        }
+
+        .subtitle {
+          padding-left: 80px;
+          background: pink;
+          color: black;
+
+          h4 {
+            padding: 0;
+            background: transparent;
+            color: black;
+          }
+
+          h5 {
+            margin: 0;
+            font-size: 11px;
+            font-family: Shentox, sans-serif;
+            font-weight: 500;
+            text-transform: uppercase;
+            line-height: 1.5;
+            opacity: 50%;
+          }
+        }
+      }
+
+      .card-body {
+        padding: 16px;
+        font-size: 13px;
+        color: #555;
+      }
+
+      .card-footer {
+        border-top: hotpink 1px solid;
+        padding: 10px 16px 16px 16px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #555555;
+        list-style: none;
+
+        span {
+          color: #AAA;
+        }
+
+      }
+
     }
 
   }
