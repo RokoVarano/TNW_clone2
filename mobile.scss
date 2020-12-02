@@ -230,6 +230,10 @@
 
   }
 
+  //LATEST NEWS - End
+
+  //FUNDING - Start
+
   .funding {
     padding-bottom: 2em;
 
@@ -336,7 +340,116 @@
 
   }
 
-  //LATEST NEWS - End
+  //FUNDING - End
+
+  //BIG CARDS - Start
+
+  .big-cards {
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+
+    section {
+      flex-basis: 100%;
+      max-width: 100%;
+      padding: 8px;
+
+      h2 {
+        font-size: 28px;
+        font-family: Avalon, sans-serif;
+        letter-spacing: -.015em;
+        margin-top: 0;
+        color: red;
+        margin-bottom: 24px;
+
+        a {
+          color: red;
+          text-decoration: none;
+        }
+      }
+      ul {
+        position: relative;
+
+        .picture {
+          background-image: url("assets/slack.jpg");
+          background-size: cover;
+          background-position: center;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          top: 0;
+          z-index: 1;
+          margin: 0;
+          padding-top: 75%;
+
+          .gradient {
+            background: linear-gradient(to top, black 20%, transparent);
+            background-size: 100% 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 2;
+            margin: 0;
+            padding: 0;
+            opacity: 80%;
+          }
+
+          header {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 14px;
+            color: white;
+            font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+            z-index: 3;
+
+            h5 {
+              margin: 0;
+              font-family: Shentox,sans-serif;
+              text-transform: uppercase;
+              font-weight: 500;
+              line-height: 1.5;
+              font-size: 13px;
+            }
+
+            h2 {
+              margin-bottom: 6px;
+              font-size: 20px;
+              color: inherit;
+            }
+
+            a {
+              color: white;
+              text-decoration: none;
+            }
+
+            ul {
+              color: hsla(0,0%,100%,.6);
+              font-size: 12px;
+              font-weight: 500;
+              line-height: 16px;
+              list-style: none;
+              display: flex;
+              padding: 0;
+
+              li {
+                margin-right: 4px
+              }
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+
+  //BIG CARDS - End
+
+
 }
 
 //WRAPPER CLASS - End
