@@ -99,10 +99,135 @@
   padding: 0 20px;
   max-width: 1192px;
 
-
   //LATEST NEWS - Start
 
-  .news {}
+  .news {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 30px;
+
+    h2 {
+      font-size: 28px;
+      font-family: Avalon,sans-serif;
+      letter-spacing: -.015em;
+      margin-top: 0;
+      color: red;
+      margin-bottom: 24px;
+
+      a {
+        color: red;
+        text-decoration: none;
+      }
+    }
+
+    ul {
+      display: flex;
+      flex-flow: row wrap;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      %card-container {
+        flex-basis: 100%;
+        max-width: 100%;
+        display: flex;
+        height: 75px;
+
+        .picture {
+          width: 75px;
+          height: 75px;
+          background-size: cover;
+        }
+
+        .content {
+          margin-left: 5px;
+          font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+          max-width: 80%;
+
+          h4 {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 18px;
+          }
+
+          ul {
+            padding-top: 5px;
+
+            .foot {
+              color: gray;
+              font-size: 12px;
+
+              a {
+                text-decoration: none;
+                color: gray;
+                margin-right: 4px;
+              }
+            }
+          }
+        }
+      }
+
+      .card-container1 {
+        @extend %card-container;
+        .picture {
+          background: url("assets/charts.jpg") center;
+        }
+      }
+
+      .card-container2 {
+        @extend %card-container;
+        .picture {
+          background: url("assets/woman.png") center;
+        }
+      }
+
+      .card-container3 {
+        @extend %card-container;
+        .picture {
+          background: url("assets/rocket.png") center;
+        }
+      }
+
+      .card-container4 {
+        @extend %card-container;
+        .picture {
+          background: url("assets/venice.png") center;
+        }
+      }
+
+      .card-container5 {
+        @extend %card-container;
+        .picture {
+          background: url("assets/elephant.jpg") center;
+        }
+      }
+
+      .card-container6 {
+        @extend %card-container;
+        .picture {
+          background: url("assets/computers.png") center;
+        }
+      }
+
+      .card-container7 {
+        @extend %card-container;
+        .picture {
+          background: url("assets/spotify.png") center;
+        }
+      }
+
+      .card-container8 {
+        @extend %card-container;
+        .picture {
+          background: url("assets/phone-camera.jpg") center;
+        }
+      }
+    }
+
+  }
 
   //LATEST NEWS - End
 }
