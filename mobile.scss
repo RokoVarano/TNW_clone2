@@ -1,3 +1,90 @@
 :root {
 
 }
+
+//COVER CLASSES - Start
+
+.cover {
+
+  //FONTS NEED TO BE IMPORTED
+
+  display: flex;
+  flex-flow: column;
+  padding: 4px;
+  background-color: antiquewhite;
+  color: white;
+
+  %article {
+    margin: 4px;
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+    position: relative;
+
+    .link {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 80%;
+      background: linear-gradient(to top, black 10%, transparent);
+    }
+
+    header {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 14px 12px;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      h5 {
+        font-size: 14px;
+        font-family: Shentox,sans-serif
+      }
+
+      h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        font-family: Avalon,sans-serif;
+        font-weight: bolder;
+      }
+
+      ul {
+        font-size: 12px;
+        font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+        line-height: 16px;
+        color: hsla(0,0%,100%,.6);
+        list-style: none;
+        display: flex;
+        padding: 0;
+
+        li {
+          margin: 0 2px;
+        }
+      }
+    }
+  }
+
+  .article-1 {
+    @extend %article;
+    background-image: url("assets/car-bg-img.jpg");
+  }
+
+  .article-2 {
+    @extend %article;
+    background-image: url("assets/spotify.png");
+  }
+
+  .article-3 {
+    @extend %article;
+    background-image: url("assets/infinite.png");
+  }
+
+}
+
+//COVER CLASSES - End
