@@ -12,15 +12,42 @@
 
     .article-1 {
       grid-area: a;
+
+      .link {
+        background: linear-gradient(to top left, black 10%, #FD562C);
+        opacity:75%;
+      }
+      header {
+        h2 {
+          font-size: 56px;
+          line-height: 1;
+        }
+      }
+
     }
 
     .article-2 {
       grid-area: b;
+
+      header {
+        h2 {
+          font-size: 28px;
+          line-height: 1;
+        }
+      }
     }
 
     .article-3 {
       grid-area: c;
-    }
-  }
 
+      header {
+        h2 {
+          font-size: 28px;
+          line-height: 1;
+
+        }
+      }
+    }
+
+  }
 }
