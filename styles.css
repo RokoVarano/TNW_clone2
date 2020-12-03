@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   overflow: hidden;
@@ -5,8 +9,8 @@ body {
 
 .logo {
   width: 100%;
-  background-color: #000;
   text-align: center;
+  background-color: #000;
 }
 .logo img {
   display: block;
@@ -23,24 +27,22 @@ body {
 }
 
 .black-nav .menu-black ul {
+  list-style-type: none;
   display: inline;
+  box-sizing: border-box;
   padding: 2px;
   margin: 5px;
-  box-sizing: border-box;
-  list-style-type: none;
 }
 .black-nav .menu-black ul li {
   display: inline;
+  box-sizing: border-box;
   padding: 2px;
   margin: 5px;
-  box-sizing: border-box;
-  list-style-type: none;
 }
 .black-nav .menu-black ul li a {
   box-sizing: border-box;
-  color: #d3d3d3;
-  text-decoration: none;
   font-size: 14px;
+  color: #d3d3d3;
 }
 .black-nav .menu-black ul li a:hover {
   color: #fff;
@@ -56,20 +58,19 @@ body {
 }
 
 .white-nav .menu-white ul {
+  list-style-type: none;
   display: inline;
   box-sizing: border-box;
-  list-style-type: none;
 }
 .white-nav .menu-white ul li {
+  list-style-type: none;
   display: inline;
   box-sizing: border-box;
-  list-style-type: none;
 }
 .white-nav .menu-white ul li a {
   box-sizing: border-box;
-  color: #d3d3d3;
-  text-decoration: none;
   font-size: 14px;
+  color: #d3d3d3;
 }
 .white-nav .menu-white .tnw {
   padding-left: 2px;
@@ -86,12 +87,11 @@ body {
 }
 
 .main-content {
-  height: 100vh;
   margin-top: 5px;
+  height: 90vh;
   overflow: auto;
 }
 
-/*style for the footer*/
 main footer {
   display: flex;
   flex-direction: column;
@@ -108,22 +108,22 @@ main footer .gray {
   background: #131313;
 }
 main footer .gray .social-media {
-  display: flex;
-  justify-content: center;
-  width: 100%;
   padding: 0;
   list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 main footer .gray .social-media li {
   display: flex;
   justify-content: center;
+  background-color: #555;
+  margin: 10px;
   width: 30px;
   height: 30px;
   padding: 5px;
-  margin: 10px;
-  background-color: #555;
-  border-radius: 50%;
   text-align: center;
+  border-radius: 50%;
 }
 main footer .gray .social-media li a {
   color: #fff;
@@ -132,35 +132,34 @@ main footer .gray .social-media li a i {
   margin: 6px;
 }
 main footer .gray .link-menu {
-  display: flex;
-  justify-content: center;
-  width: 100%;
   padding: 0;
   list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 main footer .gray .link-menu li {
   display: flex;
   justify-content: center;
   padding: 5px;
-  text-align: center;
   font-size: 13px;
+  text-align: center;
 }
 main footer .gray .link-menu li a {
   color: #d3d3d3;
-  text-decoration: none;
 }
 main footer .black-footer {
+  background: #000;
   width: 100%;
   height: 200px;
   padding: 40px;
   box-sizing: border-box;
-  background: #000;
   text-align: center;
 }
 main footer .black-footer p {
-  margin: 0 auto;
   color: #fff;
   font-size: 14px;
+  margin: 0 auto;
 }
 main footer .black-footer p img {
   height: 9px;
@@ -169,21 +168,21 @@ main footer .black-footer p img {
 
 .cover {
   display: flex;
-  grid-template-areas: "a b" "a c";
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  flex-flow: column;
   padding: 4px;
   background-color: antiquewhite;
   color: white;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  flex-flow: column;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "a b" "a c";
 }
 .cover .article-3, .cover .article-2, .cover .article-1 {
-  position: relative;
-  min-height: 30vh;
   margin: 4px;
-  background-position: center;
   background-size: cover;
+  background-position: center;
+  min-height: 30vh;
+  position: relative;
 }
 .cover .article-3 .link, .cover .article-2 .link, .cover .article-1 .link {
   position: absolute;
@@ -191,8 +190,8 @@ main footer .black-footer p img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, black 10%, transparent);
   opacity: 80%;
+  background: linear-gradient(to top, black 10%, transparent);
 }
 .cover .article-3 header, .cover .article-2 header, .cover .article-1 header {
   position: absolute;
@@ -202,108 +201,106 @@ main footer .black-footer p img {
 }
 .cover .article-3 header a, .cover .article-2 header a, .cover .article-1 header a {
   color: white;
-  text-decoration: none;
 }
 .cover .article-3 header h5, .cover .article-2 header h5, .cover .article-1 header h5 {
-  margin: 0;
-  font-family: Shentox, sans-serif;
   font-size: 14px;
+  font-family: Shentox, sans-serif;
+  margin: 0;
 }
 .cover .article-3 header h2, .cover .article-2 header h2, .cover .article-1 header h2 {
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 5px;
   font-family: Avalon, sans-serif;
-  font-size: 20px;
   font-weight: bolder;
 }
 .cover .article-3 header ul, .cover .article-2 header ul, .cover .article-1 header ul {
-  display: flex;
-  padding: 0;
   margin: 0;
-  color: rgba(255, 255, 255, 0.6);
   font-size: 12px;
   line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
   list-style: none;
+  display: flex;
+  padding: 0;
 }
 .cover .article-3 header ul li, .cover .article-2 header ul li, .cover .article-1 header ul li {
   margin: 0 2px;
 }
 .cover .article-1 {
-  grid-area: a;
   background-image: url("assets/car-bg-img.jpg");
+  grid-area: a;
 }
 .cover .article-1 .logo {
+  display: none;
   position: absolute;
-  top: 24px;
   right: 24px;
   left: 24px;
-  display: none;
-  height: 100%;
   max-width: 50%;
+  height: 100%;
   max-height: 112px;
+  top: 24px;
+  text-align: right;
   background: url("assets/tnw.svg") center no-repeat;
   background-size: auto;
-  text-align: right;
 }
 .cover .article-1 .cover-date {
-  position: absolute;
-  top: 24px;
-  right: 24px;
   display: none;
+  top: 24px;
+  position: absolute;
+  right: 24px;
 }
 .cover .article-2 {
-  grid-area: b;
   background-image: url("assets/spotify.png");
+  grid-area: b;
 }
 .cover .article-3 {
-  grid-area: c;
   background-image: url("assets/infinite.png");
+  grid-area: c;
 }
 
 .wrapper {
-  max-width: 1192px;
-  padding: 0 20px;
   margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1192px;
 }
 .wrapper .spacer {
   margin: 25px;
 }
 .wrapper .news {
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 30px;
-  flex-flow: column;
 }
 .wrapper .news .frame {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
 .wrapper .news h2 {
-  margin-top: 0;
-  margin-bottom: 24px;
-  color: red;
-  font-family: Avalon, sans-serif;
   font-size: 28px;
+  font-family: Avalon, sans-serif;
   letter-spacing: -0.015em;
+  margin-top: 0;
+  color: red;
+  margin-bottom: 24px;
 }
 .wrapper .news h2 a {
   color: red;
-  text-decoration: none;
 }
 .wrapper .news .frame {
   display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
   flex-flow: row wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .wrapper .news .frame .card-container {
-  display: flex;
-  flex-basis: 100%;
-  height: 75px;
-  max-width: 100%;
   padding: 8px;
+  flex-basis: 100%;
+  max-width: 100%;
+  display: flex;
+  height: 75px;
 }
 .wrapper .news .frame .card-container .picture {
   width: 75px;
@@ -311,9 +308,9 @@ main footer .black-footer p img {
   background-size: cover;
 }
 .wrapper .news .frame .card-container .content {
-  max-width: 80%;
   margin-left: 5px;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  max-width: 80%;
 }
 .wrapper .news .frame .card-container .content h4 {
   margin: 0;
@@ -323,17 +320,16 @@ main footer .black-footer p img {
 }
 .wrapper .news .frame .card-container .content ul {
   display: flex;
-  padding: 0;
   list-style: none;
+  padding: 0;
 }
 .wrapper .news .frame .card-container .content ul .foot {
   color: gray;
   font-size: 12px;
 }
 .wrapper .news .frame .card-container .content ul .foot a {
-  margin-right: 4px;
   color: gray;
-  text-decoration: none;
+  margin-right: 4px;
 }
 .wrapper .news .frame .card-container1 .picture {
   background: url("assets/charts.jpg") center;
@@ -364,53 +360,52 @@ main footer .black-footer p img {
 }
 .wrapper .funding a {
   color: inherit;
-  text-decoration: none;
 }
 .wrapper .funding header {
-  display: flex;
   margin-bottom: 24px;
-  color: red;
+  display: flex;
+  flex-flow: column;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   letter-spacing: -0.015em;
-  flex-flow: column;
+  color: red;
 }
 .wrapper .funding header .links {
   display: flex;
   flex-flow: column;
 }
 .wrapper .funding header .links a {
-  margin-top: 23px;
   font-size: 14px;
+  margin-top: 23px;
 }
 .wrapper .funding header h2 {
+  font-family: Avalon, sans-serif;
   margin-top: 0;
   margin-bottom: 14px;
-  font-family: Avalon, sans-serif;
   font-size: 28px;
 }
 .wrapper .funding .card {
-  background: rgba(255, 68, 34, 0.07);
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  background: rgba(255, 68, 34, 0.07);
 }
 .wrapper .funding .card .card-header {
-  position: relative;
   display: flex;
   flex-flow: column;
+  position: relative;
 }
 .wrapper .funding .card .card-header img {
   position: absolute;
-  top: 0;
   left: 0;
-  z-index: 10;
+  top: 0;
   width: 60px;
   height: 60px;
   margin: 10px;
+  z-index: 10;
 }
 .wrapper .funding .card .card-header h4 {
-  padding: 10px 0 10px 80px;
   margin: 0;
-  background: red;
   color: white;
+  padding: 10px 0 10px 80px;
+  background: red;
   font-size: 18px;
 }
 .wrapper .funding .card .card-header .subtitle {
@@ -425,24 +420,24 @@ main footer .black-footer p img {
 }
 .wrapper .funding .card .card-header .subtitle h5 {
   margin: 0;
-  opacity: 50%;
-  text-transform: uppercase;
-  font-family: Shentox, sans-serif;
   font-size: 11px;
+  font-family: Shentox, sans-serif;
   font-weight: 500;
+  text-transform: uppercase;
   line-height: 1.5;
+  opacity: 50%;
 }
 .wrapper .funding .card .card-body {
   padding: 16px;
-  color: #555;
   font-size: 13px;
+  color: #555;
 }
 .wrapper .funding .card .card-footer {
-  padding: 10px 16px 16px 16px;
   border-top: hotpink 1px solid;
-  color: #555555;
+  padding: 10px 16px 16px 16px;
   font-size: 12px;
   font-weight: 400;
+  color: #555555;
   list-style: none;
 }
 .wrapper .funding .card .card-footer span {
@@ -452,151 +447,149 @@ main footer .black-footer p img {
   display: none;
 }
 .wrapper .big-cards {
-  display: flex;
   margin-bottom: 40px;
+  display: flex;
   flex-flow: row wrap;
 }
 .wrapper .big-cards h4 {
   margin: 0;
 }
 .wrapper .big-cards h5 {
+  margin: 0;
+}
+.wrapper .big-cards .card {
   flex-basis: 100%;
   max-width: 100%;
   padding: 8px;
-  margin: 0;
 }
 .wrapper .big-cards .card h2 {
-  margin-top: 0;
-  margin-bottom: 24px;
-  color: red;
-  font-family: Avalon, sans-serif;
   font-size: 28px;
+  font-family: Avalon, sans-serif;
   letter-spacing: -0.015em;
+  margin-top: 0;
+  color: red;
+  margin-bottom: 24px;
 }
 .wrapper .big-cards .card h2 a {
   color: red;
-  text-decoration: none;
 }
 .wrapper .big-cards .card ul {
   position: relative;
+  list-style: none;
   padding: 0;
   margin: 0;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  list-style: none;
 }
 .wrapper .big-cards .card ul .picture {
+  background-size: cover;
+  background-position: center;
   position: relative;
-  top: 0;
-  right: 0;
   bottom: 0;
   left: 0;
+  right: 0;
+  top: 0;
   z-index: 1;
-  padding-top: 75%;
   margin: 0;
-  background-position: center;
-  background-size: cover;
+  padding-top: 75%;
 }
 .wrapper .big-cards .card ul .picture .gradient {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
-  padding: 0;
-  margin: 0;
   background: linear-gradient(to top, black 20%, transparent);
   background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
   opacity: 80%;
 }
 .wrapper .big-cards .card ul .picture header {
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 3;
   padding: 14px;
   color: white;
   font-family: inherit;
+  z-index: 3;
 }
 .wrapper .big-cards .card ul .picture header h5 {
   margin: 0;
-  text-transform: uppercase;
   font-family: Shentox, sans-serif;
-  font-size: 13px;
+  text-transform: uppercase;
   font-weight: 500;
   line-height: 1.5;
+  font-size: 13px;
 }
 .wrapper .big-cards .card ul .picture header h2 {
   margin-bottom: 6px;
-  color: inherit;
   font-size: 20px;
+  color: inherit;
 }
 .wrapper .big-cards .card ul .picture header a {
   color: white;
-  text-decoration: none;
 }
 .wrapper .big-cards .card ul .picture header ul {
-  display: flex;
-  padding: 0;
   color: rgba(255, 255, 255, 0.6);
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
   list-style: none;
+  display: flex;
+  padding: 0;
 }
 .wrapper .big-cards .card ul .picture header ul li {
-  display: flex;
-  flex-direction: row;
-  margin: 2px 0;
   margin-right: 4px;
 }
 .wrapper .big-cards .card ul .pink-card {
+  display: flex;
+  flex-direction: row;
   background-color: pink;
+  margin: 2px 0;
 }
 .wrapper .big-cards .card ul .pink-card header {
-  z-index: 9;
   flex: 1;
+  overflow: hidden;
   padding: 10px 14px 0;
   color: red;
-  overflow: hidden;
+  z-index: 9;
 }
 .wrapper .big-cards .card ul .pink-card header h5 {
-  margin: 0;
-  text-transform: uppercase;
-  font-family: Shentox, sans-serif;
   font-size: 13px;
+  font-family: Shentox, sans-serif;
+  text-transform: uppercase;
   line-height: 1.5;
+  margin: 0;
 }
 .wrapper .big-cards .card ul .pink-card header h4 {
-  width: 100%;
   max-height: 56px;
+  overflow: hidden;
   text-overflow: ellipsis;
+  width: 100%;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.25;
-  overflow: hidden;
 }
 .wrapper .big-cards .card ul .pink-card header h4 a {
   color: red;
-  text-decoration: none;
   font-family: inherit;
 }
 .wrapper .big-cards .card ul .pink-card .photo-link {
-  flex: 0 0 96px;
-  width: 96px;
-  height: 96px;
   background-image: url("assets/beard.jpg");
+  flex: 0 0 96px;
+  height: 96px;
+  width: 96px;
   background-position: center;
   background-size: cover;
 }
 .wrapper .big-cards .card ul .headline {
-  padding: 6px 0;
   border-bottom: 1px solid gray;
   font-size: 13px;
+  padding: 6px 0;
 }
 .wrapper .big-cards .card ul a {
   color: gray;
-  text-decoration: none;
 }
 .wrapper .big-cards .card1 ul .picture {
   background-image: url("assets/slack.jpg");
@@ -653,11 +646,11 @@ main footer .black-footer p img {
   background-image: url("assets/politician.jpg");
 }
 .wrapper .deals {
-  display: flex;
-  padding-top: 24px;
   margin-bottom: 2em;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  padding-top: 24px;
+  display: flex;
   flex-flow: column wrap;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 .wrapper .deals h2 {
   margin: 0;
@@ -673,60 +666,59 @@ main footer .black-footer p img {
 }
 .wrapper .deals a {
   color: inherit;
-  text-decoration: none;
 }
 .wrapper .deals header {
+  color: red;
   display: flex;
   justify-content: space-between;
-  color: red;
 }
 .wrapper .deals header h2 {
-  margin-bottom: 24px;
-  font-family: Avalon, sans-serif;
   font-size: 28px;
+  font-family: Avalon, sans-serif;
+  margin-bottom: 24px;
 }
 .wrapper .deals ul {
-  padding: 0;
-  margin: 0;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .wrapper .deals ul .card {
-  position: relative;
   flex: 0 0 auto;
-  min-height: 75px;
   padding: 8px;
+  position: relative;
+  min-height: 75px;
   margin-bottom: 5px;
 }
 .wrapper .deals ul .card .picture {
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  padding-top: 75px;
   position: absolute;
   top: 0;
-  left: 0;
   width: 75px;
-  padding-top: 75px;
-  background-position: center;
-  background-size: cover;
 }
 .wrapper .deals ul .card .discount {
   display: none;
 }
 .wrapper .deals ul .card h4 {
-  padding-left: 80px;
   font-size: 14px;
+  padding-left: 80px;
 }
 .wrapper .deals ul .card .prices {
-  display: flex;
   padding-top: 5px;
   padding-left: 80px;
+  display: flex;
 }
 .wrapper .deals ul .card .prices .old-price {
-  margin-right: 4px;
-  color: #AAAAAA;
-  text-decoration: line-through;
   font-size: 12px;
+  text-decoration: line-through;
+  color: #AAAAAA;
+  margin-right: 4px;
 }
 .wrapper .deals ul .card .prices .new-price {
-  color: #555555;
   font-size: 14px;
+  color: #555555;
 }
 .wrapper .deals ul .card1 .picture {
   background-image: url("assets/apps.jpg");
@@ -753,18 +745,17 @@ main footer .black-footer p img {
   background-image: url("assets/psico.jpg");
 }
 
-/*style for small screen*/
 @media only screen and (max-width: 940px) {
   .black-nav, .white-nav .menu-white .tnw {
     display: none;
   }
 
   .nav-bar {
+    border: 1px solid #d3d3d3;
     display: grid;
-    grid-template-areas: "logo rightmenu";
     grid-template-columns: 108px 1fr;
     grid-template-rows: 48px;
-    border: 1px solid #d3d3d3;
+    grid-template-areas: "logo rightmenu";
   }
 
   .logo {
@@ -776,28 +767,27 @@ main footer .black-footer p img {
     grid-area: rightmenu;
   }
   .white-nav .menu-white .icons li {
-    padding: 15px;
     border-left: 1px solid #d3d3d3;
+    padding: 15px;
   }
   .white-nav .menu-white .icons .bars a {
     color: red;
   }
 }
-/*style for medium screen*/
 @media only screen and (min-width: 940px) and (max-width: 1006px) {
   .black-nav {
     display: block;
   }
 
   .nav-bar {
-    position: sticky;
-    top: 0;
+    border: 1px solid #d3d3d3;
     display: grid;
-    grid-template-areas: "logo blackmenu" "logo whitemenu";
     grid-template-columns: 108px 1fr;
     grid-template-rows: 32px 48px;
+    grid-template-areas: "logo blackmenu" "logo whitemenu";
     box-sizing: border-box;
-    border: 1px solid #d3d3d3;
+    position: sticky;
+    top: 0;
   }
 
   .logo {
@@ -814,37 +804,38 @@ main footer .black-footer p img {
     grid-area: whitemenu;
     box-sizing: border-box;
   }
-
   .white-nav .menu-white .icons .bars {
     display: none;
   }
-
-  .white-nav .menu-white ul, .white-nav .menu-white ul li {
+  .white-nav .menu-white ul {
+    list-style-type: none;
     display: inline;
     box-sizing: border-box;
-    list-style-type: none;
   }
-
+  .white-nav .menu-white ul li {
+    list-style-type: none;
+    display: inline;
+    box-sizing: border-box;
+  }
   .white-nav .menu-white .icons li {
-    padding: 15px;
     border-left: 1px solid #d3d3d3;
+    padding: 15px;
   }
 }
-/*style for big screen*/
 @media only screen and (min-width: 1007px) {
   .logo {
     display: none;
   }
 
   .nav-bar {
-    position: sticky;
-    top: 0;
+    border: 1px solid #d3d3d3;
     display: grid;
-    grid-template-areas: "blackmenu" "whitemenu";
     grid-template-columns: 1fr;
     grid-template-rows: 32px 48px;
+    grid-template-areas: "blackmenu" "whitemenu";
     box-sizing: border-box;
-    border: 1px solid #d3d3d3;
+    position: sticky;
+    top: 0px;
   }
 
   .black-nav {
@@ -854,20 +845,22 @@ main footer .black-footer p img {
   .white-nav {
     grid-area: whitemenu;
   }
-
   .white-nav .menu-white .icons .bars {
     display: none;
   }
-
-  .white-nav .menu-white ul, .white-nav .menu-white ul li {
+  .white-nav .menu-white ul {
+    list-style-type: none;
     display: inline;
     box-sizing: border-box;
-    list-style-type: none;
   }
-
+  .white-nav .menu-white ul li {
+    list-style-type: none;
+    display: inline;
+    box-sizing: border-box;
+  }
   .white-nav .menu-white .icons li {
-    padding: 15px;
     border-left: 1px solid #d3d3d3;
+    padding: 15px;
   }
 }
 @media only screen and (min-width: 940px) and (max-width: 1006px) {
@@ -887,8 +880,8 @@ main footer .black-footer p img {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .wrapper .news .frame .card-container {
-    height: auto;
     padding: 12px;
+    height: auto;
     flex-flow: column;
   }
   .wrapper .news .frame .card-container .picture {
@@ -897,8 +890,8 @@ main footer .black-footer p img {
     padding-top: 50%;
   }
   .wrapper .news .frame .card-container .content {
-    max-width: 100%;
     margin: 0;
+    max-width: 100%;
   }
   .wrapper .funding header h2 {
     margin: 0;
@@ -936,10 +929,10 @@ main footer .black-footer p img {
     flex-flow: column;
   }
   .wrapper .deals ul .card .picture {
-    position: static;
+    background-position: center;
     min-width: 100%;
     padding-top: 75%;
-    background-position: center;
+    position: static;
   }
   .wrapper .deals ul .card h4 {
     padding: 0;
@@ -982,8 +975,8 @@ main footer .black-footer p img {
     display: grid;
   }
   .wrapper .news .frame .card-container {
-    height: auto;
     padding: 12px;
+    height: auto;
     flex-flow: column;
   }
   .wrapper .news .frame .card-container .picture {
@@ -992,8 +985,8 @@ main footer .black-footer p img {
     padding-top: 50%;
   }
   .wrapper .news .frame .card-container .content {
-    max-width: 100%;
     margin: 0;
+    max-width: 100%;
   }
   .wrapper .funding header {
     flex-flow: row;
@@ -1038,10 +1031,10 @@ main footer .black-footer p img {
     flex-flow: column;
   }
   .wrapper .deals ul .card .picture {
-    position: static;
+    background-position: center;
     min-width: 100%;
     padding-top: 75%;
-    background-position: center;
+    position: static;
   }
   .wrapper .deals ul .card h4 {
     padding: 0;
