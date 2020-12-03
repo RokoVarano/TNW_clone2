@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -108,7 +108,7 @@ main footer .gray {
   background: #131313;
 }
 main footer .gray .social-media {
-  padding: 0px;
+  padding: 0;
   list-style-type: none;
   width: 100%;
   display: flex;
@@ -118,7 +118,6 @@ main footer .gray .social-media li {
   display: flex;
   justify-content: center;
   background-color: #555;
-  display: inline-block;
   margin: 10px;
   width: 30px;
   height: 30px;
@@ -133,7 +132,7 @@ main footer .gray .social-media li a i {
   margin: 6px;
 }
 main footer .gray .link-menu {
-  padding: 0px;
+  padding: 0;
   list-style-type: none;
   width: 100%;
   display: flex;
@@ -142,7 +141,6 @@ main footer .gray .link-menu {
 main footer .gray .link-menu li {
   display: flex;
   justify-content: center;
-  display: inline-block;
   padding: 5px;
   font-size: 13px;
   text-align: center;
@@ -162,7 +160,7 @@ main footer .black-footer {
 main footer .black-footer p {
   color: #fff;
   font-size: 14px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 main footer .black-footer p img {
   height: 9px;

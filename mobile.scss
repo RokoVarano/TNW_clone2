@@ -1,6 +1,6 @@
 //navbar-code
 body {
-  margin: 0px;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -131,7 +131,7 @@ main footer {
     background: #131313;
 
     .social-media {
-      padding: 0px;
+      padding: 0;
       list-style-type: none;
       width: 100%;
       display: flex;
@@ -141,7 +141,6 @@ main footer {
         display: flex;
         justify-content: center;
         background-color: #555;
-        display: inline-block;
         margin: 10px;
         width: 30px;
         height: 30px;
@@ -160,7 +159,7 @@ main footer {
     }
 
     .link-menu {
-      padding: 0px;
+      padding: 0;
       list-style-type: none;
       width: 100%;
       display: flex;
@@ -169,7 +168,6 @@ main footer {
       li {
         display: flex;
         justify-content: center;
-        display: inline-block;
         padding: 5px;
         font-size: 13px;
         text-align: center;
@@ -193,7 +191,7 @@ main footer {
     p {
       color: #fff;
       font-size: 14px;
-      margin: 0px auto;
+      margin: 0 auto;
 
       img {
         height: 9px;
