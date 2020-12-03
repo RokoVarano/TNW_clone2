@@ -1,7 +1,8 @@
 @use "mobile";
 
 @media only screen and (max-width: 940px) {
-  .black-nav, .white-nav .menu-white .tnw {
+  .black-nav,
+  .white-nav .menu-white .tnw {
     display: none;
   }
 
@@ -37,6 +38,8 @@
 @media only screen and (min-width: 940px) and (max-width: 1006px) {
   .black-nav {
     display: block;
+    grid-area: blackmenu;
+    box-sizing: border-box;
   }
 
   .nav-bar {
@@ -53,11 +56,6 @@
   .logo {
     grid-area: logo;
     padding-top: 35px;
-  }
-
-  .black-nav {
-    grid-area: blackmenu;
-    box-sizing: border-box;
   }
 
   .white-nav {
@@ -102,7 +100,7 @@
     grid-template-areas: "blackmenu" "whitemenu";
     box-sizing: border-box;
     position: sticky;
-    top: 0px;
+    top: 0;
   }
 
   .black-nav {
@@ -135,10 +133,8 @@
       }
     }
   }
-
 }
 
-//end
 @media only screen and (min-width: 940px) and (max-width: 1006px) {
   .cover {
     display: grid;
@@ -146,6 +142,7 @@
     .article-1 {
 
       header {
+
         h2 {
           font-size: 33px;
           line-height: 1;
@@ -157,6 +154,7 @@
     width: 80%;
 
     .news {
+
       .frame {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -247,7 +245,6 @@
 
   }
 }
-
 
 @media only screen and (min-width: 1007px) {
 

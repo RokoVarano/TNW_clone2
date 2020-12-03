@@ -744,7 +744,8 @@ main footer .black-footer p img {
 }
 
 @media only screen and (max-width: 940px) {
-  .black-nav, .white-nav .menu-white .tnw {
+  .black-nav,
+.white-nav .menu-white .tnw {
     display: none;
   }
 
@@ -775,6 +776,8 @@ main footer .black-footer p img {
 @media only screen and (min-width: 940px) and (max-width: 1006px) {
   .black-nav {
     display: block;
+    grid-area: blackmenu;
+    box-sizing: border-box;
   }
 
   .nav-bar {
@@ -791,11 +794,6 @@ main footer .black-footer p img {
   .logo {
     grid-area: logo;
     padding-top: 35px;
-  }
-
-  .black-nav {
-    grid-area: blackmenu;
-    box-sizing: border-box;
   }
 
   .white-nav {
@@ -833,7 +831,7 @@ main footer .black-footer p img {
     grid-template-areas: "blackmenu" "whitemenu";
     box-sizing: border-box;
     position: sticky;
-    top: 0px;
+    top: 0;
   }
 
   .black-nav {
