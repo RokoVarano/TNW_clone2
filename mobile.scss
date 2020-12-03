@@ -15,20 +15,18 @@
   color: white;
   font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
 
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "a b"
+    "a c";
+
   %article {
     margin: 4px;
     background-size: cover;
     background-position: center;
     min-height: 30vh;
     position: relative;
-
-    .logo {
-      display: none;
-    }
-
-    .cover-date {
-      display: none;
-    }
 
     .link {
       position: absolute;
@@ -84,16 +82,41 @@
   .article-1 {
     @extend %article;
     background-image: url("assets/car-bg-img.jpg");
+
+    grid-area: a;
+
+    .logo {
+      display: none;
+      position: absolute;
+      right: 24px;
+      left: 24px;
+      max-width: 50%;
+      height: 100%;
+      max-height: 112px;
+      top: 24px;
+      text-align: right;
+      background: url("assets/tnw.svg") center no-repeat;
+      background-size: auto;
+    }
+
+    .cover-date {
+      display: none;
+      top: 24px;
+      position: absolute;
+      right: 24px;
+    }
   }
 
   .article-2 {
     @extend %article;
     background-image: url("assets/spotify.png");
+    grid-area: b;
   }
 
   .article-3 {
     @extend %article;
     background-image: url("assets/infinite.png");
+    grid-area: c;
   }
 
 }
@@ -119,6 +142,11 @@
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 30px;
+
+    .frame {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 2fr;
+    }
 
     h2 {
       font-size: 28px;
@@ -252,7 +280,7 @@
       margin-bottom: 24px;
       display: flex;
       flex-flow: column;
-      font-family: Avalon, sans-serif;
+      font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
       letter-spacing: -.015em;
       color: red;
 
@@ -265,18 +293,17 @@
         }
       }
       h2 {
+        font-family: Avalon, sans-serif;
         margin-top: 0;
         margin-bottom: 14px;
         font-size: 28px;
       }
-
-
     }
 
     .card {
       font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
       background: rgba(255, 68, 34, .07);
-      
+
       .card-header {
         display: flex;
         flex-flow: column;
