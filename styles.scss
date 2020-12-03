@@ -123,7 +123,18 @@
         }
       }
 
-    }
+      .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
 
+        .card {
+          margin: 12px;
+        }
+
+        .final {
+          display: block;
+        }
+      }
+    }
   }
 }
