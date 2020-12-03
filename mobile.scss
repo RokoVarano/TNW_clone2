@@ -270,9 +270,9 @@
     }
 
     .card {
-      background: rgba(255, 68, 34, .07);
       font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-
+      background: rgba(255, 68, 34, .07);
+      
       .card-header {
         display: flex;
         flex-flow: column;
@@ -337,11 +337,12 @@
         span {
           color: #AAA;
         }
-
       }
-
     }
 
+    .final {
+      display: none;
+    }
   }
 
   //FUNDING - End
