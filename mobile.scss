@@ -13,6 +13,7 @@
   padding: 4px;
   background-color: antiquewhite;
   color: white;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
 
   %article {
     margin: 4px;
@@ -20,6 +21,14 @@
     background-position: center;
     min-height: 30vh;
     position: relative;
+
+    .logo {
+      display: none;
+    }
+
+    .cover-date {
+      display: none;
+    }
 
     .link {
       position: absolute;
@@ -59,7 +68,6 @@
       ul {
         margin: 0;
         font-size: 12px;
-        font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
         line-height: 16px;
         color: hsla(0,0%,100%,.6);
         list-style: none;
