@@ -17,7 +17,7 @@ The purpose of these project it to create a similar looking website of thenexweb
 
 ## LIVE DEMO
 
-[Live Demo Link](https://github.com/RokoVarano/TNW_clone2)
+[Live Demo Link](https://rokovarano.github.io/TNW_clone2/)
 
 ##  AUTHORS
 
