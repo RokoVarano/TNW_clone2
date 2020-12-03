@@ -100,5 +100,30 @@
         }
       }
     }
+
+    .funding {
+      header {
+        flex-flow: row;
+        font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+        justify-content: space-between;
+
+        h2 {
+          font-family: Avalon, sans-serif;
+          margin: 0;
+        }
+
+        .links {
+          flex-flow: row;
+          justify-content: space-evenly;
+          align-items: flex-end;
+
+          a {
+            margin: 0 0 0 20px;
+          }
+        }
+      }
+
+    }
+
   }
 }

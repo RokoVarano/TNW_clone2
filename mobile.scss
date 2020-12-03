@@ -252,19 +252,21 @@
       letter-spacing: -.015em;
       color: red;
 
+      .links {
+        display: flex;
+        flex-flow: column;
+        a {
+          font-size: 14px;
+          margin-top: 23px;
+        }
+      }
       h2 {
         margin-top: 0;
         margin-bottom: 14px;
-
-        a {
-          font-size: 28px;
-        }
+        font-size: 28px;
       }
 
-      a {
-        font-size: 14px;
-        margin-top: 23px;
-      }
+
     }
 
     .card {
