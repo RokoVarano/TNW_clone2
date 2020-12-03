@@ -362,7 +362,7 @@
       margin: 0
     }
 
-    %card {
+    .card {
       flex-basis: 100%;
       max-width: 100%;
       padding: 8px;
@@ -524,8 +524,6 @@
     }
 
     .card1 {
-      @extend %card;
-
       ul {
         .picture {
           background-image: url("assets/slack.jpg");
@@ -540,8 +538,6 @@
     }
 
     .card2 {
-      @extend %card;
-
       ul {
         .picture {
           background-image: url("assets/salesforce-slack.png");
@@ -556,8 +552,6 @@
     }
 
     .card3 {
-      @extend %card;
-
       ul {
         .picture {
           background-image: url("assets/gadget.png");
@@ -572,8 +566,6 @@
     }
 
     .card4 {
-      @extend %card;
-
       ul {
         .picture {
           background-image: url("assets/computer.jpg");
@@ -588,8 +580,6 @@
     }
 
     .card5 {
-      @extend %card;
-
       ul {
         .picture {
           background-image: url("assets/artists.jpg");
@@ -604,8 +594,6 @@
     }
 
     .card6 {
-      @extend %card;
-
       ul {
         .picture {
           background-image: url("assets/Google.png");
@@ -620,8 +608,6 @@
     }
 
     .card7 {
-      @extend %card;
-
       ul {
         .picture {
           background-image: url("assets/computers.png");
@@ -636,8 +622,6 @@
     }
 
     .card8 {
-      @extend %card;
-
       ul {
         .picture {
           background-image: url("assets/guytrain.jpg");
@@ -652,8 +636,6 @@
     }
 
     .card9 {
-      @extend %card;
-
       ul {
         .picture {
           background-image: url("assets/car-bg-img.jpg");
