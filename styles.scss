@@ -1,6 +1,114 @@
 @use "mobile";
 
-@media only screen and (min-width: 940px) and (max-width: 1006px) {}
+@media only screen and (min-width: 940px) and (max-width: 1006px) {
+  .cover {
+    display: grid;
+
+    .article-1 {
+
+      header {
+        h2 {
+          font-size: 33px;
+          line-height: 1;
+        }
+      }
+    }
+  }
+  .wrapper {
+    width: 80%;
+
+    .news {
+      .frame {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .card-container {
+          padding: 12px;
+          height: auto;
+          flex-flow: column;
+
+          .picture {
+            width: 100%;
+            height: 0;
+            padding-top: 50%;
+          }
+
+          .content {
+            margin: 0;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+
+    .funding {
+      header {
+        h2 {
+          margin: 0;
+        }
+
+        .links {
+          flex-flow: row;
+          justify-content: flex-start;
+          align-items: flex-end;
+
+          a {
+            margin: 0 20px 0 0;
+          }
+        }
+      }
+
+      .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .card {
+          margin: 12px;
+        }
+      }
+    }
+
+    .big-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+
+      h3 {
+        margin: 0;
+      }
+    }
+
+    .deals {
+      ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+
+        .card {
+          display: flex;
+          flex-flow: column;
+
+          .picture {
+            background-position: center;
+            min-width: 100%;
+            padding-top: 75%;
+            position: static;
+          }
+
+          h4 {
+            padding: 0;
+          }
+
+          .prices {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+
+  }
+}
+
 
 @media only screen and (min-width: 1007px) {
 
@@ -19,12 +127,12 @@
 
       .link {
         background: linear-gradient(to top left, black 10%, #FD562C, white);
-        opacity:75%;
+        opacity: 75%;
       }
 
       header {
         h2 {
-          font-size: 56px;
+          font-size: 45px;
           line-height: 1;
         }
       }
@@ -34,7 +142,7 @@
     .article-2 {
       header {
         h2 {
-          font-size: 28px;
+          font-size: 20px;
           line-height: 1;
         }
       }
@@ -43,7 +151,7 @@
     .article-3 {
       header {
         h2 {
-          font-size: 28px;
+          font-size: 20px;
           line-height: 1;
         }
       }
@@ -57,13 +165,12 @@
       .frame {
         display: grid;
 
-
         .card-container {
           padding: 12px;
           height: auto;
           flex-flow: column;
 
-          .picture{
+          .picture {
             width: 100%;
             height: 0;
             padding-top: 50%;
