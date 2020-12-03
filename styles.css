@@ -745,7 +745,6 @@ main footer .black-footer p img {
   background-image: url("assets/psico.jpg");
 }
 
-/*style for small screen*/
 @media only screen and (max-width: 940px) {
   .black-nav, .white-nav .menu-white .tnw {
     display: none;
@@ -775,7 +774,6 @@ main footer .black-footer p img {
     color: red;
   }
 }
-/*style for medium screen*/
 @media only screen and (min-width: 940px) and (max-width: 1006px) {
   .black-nav {
     display: block;
@@ -789,7 +787,7 @@ main footer .black-footer p img {
     grid-template-areas: "logo blackmenu" "logo whitemenu";
     box-sizing: border-box;
     position: sticky;
-    top: 0px;
+    top: 0;
   }
 
   .logo {
@@ -824,7 +822,6 @@ main footer .black-footer p img {
     padding: 15px;
   }
 }
-/*style for big screen*/
 @media only screen and (min-width: 1007px) {
   .logo {
     display: none;
