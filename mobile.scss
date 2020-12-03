@@ -9,8 +9,8 @@ body {
 
 .logo {
   width: 100%;
-  text-align: center;
   background-color: #000;
+  text-align: center;
 
   img {
     display: block;
@@ -30,22 +30,22 @@ body {
 .black-nav {
   .menu-black {
     ul {
-      list-style-type: none;
       display: inline;
-      box-sizing: border-box;
       padding: 2px;
       margin: 5px;
+      box-sizing: border-box;
+      list-style-type: none;
 
       li {
         display: inline;
-        box-sizing: border-box;
         padding: 2px;
         margin: 5px;
+        box-sizing: border-box;
 
         a {
           box-sizing: border-box;
-          font-size: 14px;
           color: #d3d3d3;
+          font-size: 14px;
 
           &:hover {
             color: #fff;
@@ -70,19 +70,19 @@ body {
 
 .white-nav .menu-white {
   ul {
-    list-style-type: none;
     display: inline;
     box-sizing: border-box;
+    list-style-type: none;
 
     li {
-      list-style-type: none;
       display: inline;
       box-sizing: border-box;
+      list-style-type: none;
 
       a {
         box-sizing: border-box;
-        font-size: 14px;
         color: #d3d3d3;
+        font-size: 14px;
       }
     }
   }
@@ -106,8 +106,8 @@ body {
 }
 
 .main-content {
-  margin-top: 5px;
   height: 90vh;
+  margin-top: 5px;
   overflow: auto;
 }
 
@@ -129,22 +129,22 @@ main footer {
     background: #131313;
 
     .social-media {
-      padding: 0;
-      list-style-type: none;
-      width: 100%;
       display: flex;
       justify-content: center;
+      width: 100%;
+      padding: 0;
+      list-style-type: none;
 
       li {
         display: flex;
         justify-content: center;
-        background-color: #555;
-        margin: 10px;
         width: 30px;
         height: 30px;
         padding: 5px;
-        text-align: center;
+        margin: 10px;
+        background-color: #555;
         border-radius: 50%;
+        text-align: center;
 
         a {
           color: #fff;
@@ -157,18 +157,18 @@ main footer {
     }
 
     .link-menu {
-      padding: 0;
-      list-style-type: none;
-      width: 100%;
       display: flex;
       justify-content: center;
+      width: 100%;
+      padding: 0;
+      list-style-type: none;
 
       li {
         display: flex;
         justify-content: center;
         padding: 5px;
-        font-size: 13px;
         text-align: center;
+        font-size: 13px;
 
         a {
           color: #d3d3d3;
@@ -178,17 +178,17 @@ main footer {
   }
 
   .black-footer {
-    background: #000;
     width: 100%;
     height: 200px;
     padding: 40px;
     box-sizing: border-box;
+    background: #000;
     text-align: center;
 
     p {
+      margin: 0 auto;
       color: #fff;
       font-size: 14px;
-      margin: 0 auto;
 
       img {
         height: 9px;
@@ -201,24 +201,24 @@ main footer {
 .cover {
 
   display: flex;
-  flex-flow: column;
-  padding: 4px;
-  background-color: antiquewhite;
-  color: white;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
-
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "a b"
     "a c";
 
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 4px;
+  background-color: antiquewhite;
+  color: white;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  flex-flow: column;
+
   %article {
-    margin: 4px;
-    background-size: cover;
-    background-position: center;
-    min-height: 30vh;
     position: relative;
+    min-height: 30vh;
+    margin: 4px;
+    background-position: center;
+    background-size: cover;
 
     .link {
       position: absolute;
@@ -226,8 +226,8 @@ main footer {
       left: 0;
       width: 100%;
       height: 100%;
-      opacity: 80%;
       background: linear-gradient(to top, black 10%, transparent);
+      opacity: 80%;
     }
 
     header {
@@ -241,27 +241,27 @@ main footer {
       }
 
       h5 {
-        font-size: 14px;
-        font-family: Shentox,sans-serif;
         margin: 0;
+        font-family: Shentox,sans-serif;
+        font-size: 14px;
       }
 
       h2 {
-        font-size: 20px;
         margin-top: 0;
         margin-bottom: 5px;
         font-family: Avalon,sans-serif;
+        font-size: 20px;
         font-weight: bolder;
       }
 
       ul {
-        margin: 0;
-        font-size: 12px;
-        line-height: 16px;
-        color: hsla(0,0%,100%,.6);
-        list-style: none;
         display: flex;
         padding: 0;
+        margin: 0;
+        color: hsla(0,0%,100%,.6);
+        font-size: 12px;
+        line-height: 16px;
+        list-style: none;
 
         li {
           margin: 0 2px;
@@ -272,50 +272,50 @@ main footer {
 
   .article-1 {
     @extend %article;
-    background-image: url("assets/car-bg-img.jpg");
 
     grid-area: a;
+    background-image: url("assets/car-bg-img.jpg");
 
     .logo {
-      display: none;
       position: absolute;
+      top: 24px;
       right: 24px;
       left: 24px;
-      max-width: 50%;
+      display: none;
       height: 100%;
+      max-width: 50%;
       max-height: 112px;
-      top: 24px;
-      text-align: right;
       background: url("assets/tnw.svg") center no-repeat;
       background-size: auto;
+      text-align: right;
     }
 
     .cover-date {
-      display: none;
-      top: 24px;
       position: absolute;
+      top: 24px;
       right: 24px;
+      display: none;
     }
   }
 
   .article-2 {
     @extend %article;
-    background-image: url("assets/spotify.png");
     grid-area: b;
+    background-image: url("assets/spotify.png");
   }
 
   .article-3 {
     @extend %article;
-    background-image: url("assets/infinite.png");
     grid-area: c;
+    background-image: url("assets/infinite.png");
   }
 
 }
 
 .wrapper {
-  margin: 0 auto;
-  padding: 0 20px;
   max-width: 1192px;
+  padding: 0 20px;
+  margin: 0 auto;
 
   .spacer {
     margin: 25px;
@@ -323,10 +323,10 @@ main footer {
 
   .news {
     display: flex;
-    flex-flow: column;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 30px;
+    flex-flow: column;
 
     .frame {
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -334,12 +334,12 @@ main footer {
     }
 
     h2 {
-      font-size: 28px;
-      font-family: Avalon, sans-serif;
-      letter-spacing: -.015em;
       margin-top: 0;
-      color: red;
       margin-bottom: 24px;
+      color: red;
+      font-family: Avalon, sans-serif;
+      font-size: 28px;
+      letter-spacing: -.015em;
 
       a {
         color: red;
@@ -348,17 +348,17 @@ main footer {
 
     .frame {
       display: flex;
-      flex-flow: row wrap;
-      margin: 0;
       padding: 0;
+      margin: 0;
       list-style: none;
+      flex-flow: row wrap;
 
       .card-container {
-        padding: 8px;
-        flex-basis: 100%;
-        max-width: 100%;
         display: flex;
+        flex-basis: 100%;
         height: 75px;
+        max-width: 100%;
+        padding: 8px;
 
         .picture {
           width: 75px;
@@ -367,9 +367,9 @@ main footer {
         }
 
         .content {
+          max-width: 80%;
           margin-left: 5px;
           font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-          max-width: 80%;
 
           h4 {
             margin: 0;
@@ -380,16 +380,16 @@ main footer {
 
           ul {
             display: flex;
-            list-style: none;
             padding: 0;
+            list-style: none;
 
             .foot {
               color: gray;
               font-size: 12px;
 
               a {
-                color: gray;
                 margin-right: 4px;
+                color: gray;
               }
             }
           }
@@ -455,54 +455,54 @@ main footer {
     }
 
     header {
-      margin-bottom: 24px;
       display: flex;
-      flex-flow: column;
+      margin-bottom: 24px;
+      color: red;
       font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
       letter-spacing: -.015em;
-      color: red;
+      flex-flow: column;
 
       .links {
         display: flex;
         flex-flow: column;
         a {
-          font-size: 14px;
           margin-top: 23px;
+          font-size: 14px;
         }
       }
       h2 {
-        font-family: Avalon, sans-serif;
         margin-top: 0;
         margin-bottom: 14px;
+        font-family: Avalon, sans-serif;
         font-size: 28px;
       }
     }
 
     .card {
-      font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
       background: rgba(255, 68, 34, .07);
+      font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 
       .card-header {
+        position: relative;
         display: flex;
         flex-flow: column;
-        position: relative;
 
 
         img {
           position: absolute;
-          left: 0;
           top: 0;
+          left: 0;
+          z-index: 10;
           width: 60px;
           height: 60px;
           margin: 10px;
-          z-index: 10;
         }
 
         h4 {
-          margin: 0;
-          color: white;
           padding: 10px 0 10px 80px;
+          margin: 0;
           background: red;
+          color: white;
           font-size: 18px;
         }
 
@@ -519,28 +519,28 @@ main footer {
 
           h5 {
             margin: 0;
-            font-size: 11px;
-            font-family: Shentox, sans-serif;
-            font-weight: 500;
-            text-transform: uppercase;
-            line-height: 1.5;
             opacity: 50%;
+            text-transform: uppercase;
+            font-family: Shentox, sans-serif;
+            font-size: 11px;
+            font-weight: 500;
+            line-height: 1.5;
           }
         }
       }
 
       .card-body {
         padding: 16px;
-        font-size: 13px;
         color: #555;
+        font-size: 13px;
       }
 
       .card-footer {
-        border-top: hotpink 1px solid;
         padding: 10px 16px 16px 16px;
+        border-top: hotpink 1px solid;
+        color: #555555;
         font-size: 12px;
         font-weight: 400;
-        color: #555555;
         list-style: none;
 
         span {
@@ -555,8 +555,8 @@ main footer {
   }
 
   .big-cards {
-    margin-bottom: 40px;
     display: flex;
+    margin-bottom: 40px;
     flex-flow: row wrap;
 
     h4 {
@@ -564,21 +564,21 @@ main footer {
     }
 
     h5 {
+      flex-basis: 100%;
+      max-width: 100%;
+      padding: 8px;
       margin: 0
     }
 
     .card {
-      flex-basis: 100%;
-      max-width: 100%;
-      padding: 8px;
 
       h2 {
-        font-size: 28px;
-        font-family: Avalon, sans-serif;
-        letter-spacing: -.015em;
         margin-top: 0;
-        color: red;
         margin-bottom: 24px;
+        color: red;
+        font-family: Avalon, sans-serif;
+        font-size: 28px;
+        letter-spacing: -.015em;
 
         a {
           color: red;
@@ -587,34 +587,34 @@ main footer {
 
       ul {
         position: relative;
-        list-style: none;
         padding: 0;
         margin: 0;
         font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+        list-style: none;
 
         .picture {
-          background-size: cover;
-          background-position: center;
           position: relative;
+          top: 0;
+          right: 0;
           bottom: 0;
           left: 0;
-          right: 0;
-          top: 0;
           z-index: 1;
-          margin: 0;
           padding-top: 75%;
+          margin: 0;
+          background-position: center;
+          background-size: cover;
 
           .gradient {
-            background: linear-gradient(to top, black 20%, transparent);
-            background-size: 100% 100%;
             position: absolute;
+            top: 0;
+            right: 0;
             bottom: 0;
             left: 0;
-            right: 0;
-            top: 0;
             z-index: 2;
-            margin: 0;
             padding: 0;
+            margin: 0;
+            background: linear-gradient(to top, black 20%, transparent);
+            background-size: 100% 100%;
             opacity: 80%;
           }
 
@@ -622,24 +622,24 @@ main footer {
             position: absolute;
             bottom: 0;
             left: 0;
+            z-index: 3;
             padding: 14px;
             color: white;
             font-family: inherit;
-            z-index: 3;
 
             h5 {
               margin: 0;
-              font-family: Shentox, sans-serif;
               text-transform: uppercase;
+              font-family: Shentox, sans-serif;
+              font-size: 13px;
               font-weight: 500;
               line-height: 1.5;
-              font-size: 13px;
             }
 
             h2 {
               margin-bottom: 6px;
-              font-size: 20px;
               color: inherit;
+              font-size: 20px;
             }
 
             a {
@@ -647,15 +647,18 @@ main footer {
             }
 
             ul {
+              display: flex;
+              padding: 0;
               color: hsla(0, 0%, 100%, .6);
               font-size: 12px;
               font-weight: 500;
               line-height: 16px;
               list-style: none;
-              display: flex;
-              padding: 0;
 
               li {
+          display: flex;
+          flex-direction: row;
+          margin: 2px 0;
                 margin-right: 4px
               }
             }
@@ -665,35 +668,32 @@ main footer {
         }
 
         .pink-card {
-          display: flex;
-          flex-direction: row;
           background-color: pink;
-          margin: 2px 0;
 
 
           header {
+            z-index: 9;
             flex: 1;
-            overflow: hidden;
             padding: 10px 14px 0;
             color: red;
-            z-index: 9;
+            overflow: hidden;
 
             h5 {
-              font-size: 13px;
-              font-family: Shentox, sans-serif;
-              text-transform: uppercase;
-              line-height: 1.5;
               margin: 0;
+              text-transform: uppercase;
+              font-family: Shentox, sans-serif;
+              font-size: 13px;
+              line-height: 1.5;
             }
 
             h4 {
-              max-height: 56px;
-              overflow: hidden;
-              text-overflow: ellipsis;
               width: 100%;
+              max-height: 56px;
+              text-overflow: ellipsis;
               font-size: 14px;
               font-weight: 700;
               line-height: 1.25;
+              overflow: hidden;
 
               a {
                 color: red;
@@ -703,19 +703,19 @@ main footer {
           }
 
           .photo-link {
-            background-image: url("assets/beard.jpg");
             flex: 0 0 96px;
-            height: 96px;
             width: 96px;
+            height: 96px;
+            background-image: url("assets/beard.jpg");
             background-position: center;
             background-size: cover;
           }
         }
 
         .headline {
+          padding: 6px 0;
           border-bottom: 1px solid gray;
           font-size: 13px;
-          padding: 6px 0;
         }
 
         a {
@@ -852,11 +852,11 @@ main footer {
   }
 
   .deals {
-    margin-bottom: 2em;
-    padding-top: 24px;
     display: flex;
-    flex-flow: column wrap;
+    padding-top: 24px;
+    margin-bottom: 2em;
     font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+    flex-flow: column wrap;
 
     h2 {
       margin: 0;
@@ -879,37 +879,37 @@ main footer {
     }
 
     header {
-      color: red;
       display: flex;
       justify-content: space-between;
+      color: red;
 
       h2 {
-        font-size: 28px;
-        font-family: Avalon, sans-serif;
         margin-bottom: 24px;
+        font-family: Avalon, sans-serif;
+        font-size: 28px;
       }
     }
 
     ul {
-      list-style: none;
-      margin: 0;
       padding: 0;
+      margin: 0;
+      list-style: none;
 
       .card {
-        flex: 0 0 auto;
-        padding: 8px;
         position: relative;
+        flex: 0 0 auto;
         min-height: 75px;
+        padding: 8px;
         margin-bottom: 5px;
 
         .picture {
-          background-size: cover;
-          background-position: center;
-          left: 0;
-          padding-top: 75px;
           position: absolute;
           top: 0;
+          left: 0;
           width: 75px;
+          padding-top: 75px;
+          background-position: center;
+          background-size: cover;
         }
 
         .discount {
@@ -917,26 +917,26 @@ main footer {
         }
 
         h4 {
-          font-size: 14px;
           padding-left: 80px;
+          font-size: 14px;
         }
 
         .prices {
+          display: flex;
           padding-top: 5px;
           padding-left: 80px;
-          display: flex;
 
           .old-price {
-            font-size: 12px;
-            text-decoration: line-through;
-            color: #AAAAAA;
             margin-right: 4px;
+            color: #AAAAAA;
+            text-decoration: line-through;
+            font-size: 12px;
 
           }
 
           .new-price {
-            font-size: 14px;
             color: #555555;
+            font-size: 14px;
           }
         }
       }
