@@ -130,7 +130,7 @@
       }
     }
 
-    ul {
+    .frame {
       display: flex;
       flex-flow: row wrap;
       margin: 0;
@@ -163,7 +163,9 @@
           }
 
           ul {
-            padding-top: 5px;
+            display: flex;
+            list-style: none;
+            padding: 0;
 
             .foot {
               color: gray;
