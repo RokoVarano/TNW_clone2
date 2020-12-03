@@ -2,4 +2,73 @@
 
 @media only screen and (min-width: 601px) {
 
+  .cover {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "a b"
+    "a c";
+
+    .article-1 {
+      grid-area: a;
+
+      .logo {
+        display: block;
+        position: absolute;
+        right: 24px;
+        left: 24px;
+        max-width: 50%;
+        height: 100%;
+        max-height: 112px;
+        top: 24px;
+        text-align: right;
+        background: url("assets/tnw.svg") center no-repeat;
+        background-size: auto;
+      }
+
+      .cover-date {
+        display: block;
+        top: 24px;
+        position: absolute;
+        right: 24px;
+      }
+
+      .link {
+        background: linear-gradient(to top left, black 10%, #FD562C, white);
+        opacity:75%;
+      }
+      header {
+        h2 {
+          font-size: 56px;
+          line-height: 1;
+        }
+      }
+
+    }
+
+    .article-2 {
+      grid-area: b;
+
+      header {
+        h2 {
+          font-size: 28px;
+          line-height: 1;
+        }
+      }
+    }
+
+    .article-3 {
+      grid-area: c;
+
+      header {
+        h2 {
+          font-size: 28px;
+          line-height: 1;
+
+        }
+      }
+    }
+
+  }
 }
