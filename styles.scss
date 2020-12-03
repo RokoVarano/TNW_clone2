@@ -57,6 +57,7 @@
       .frame {
         display: grid;
 
+
         .card-container {
           padding: 12px;
           height: auto;
@@ -80,11 +81,9 @@
     .funding {
       header {
         flex-flow: row;
-        font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
         justify-content: space-between;
 
         h2 {
-          font-family: Avalon, sans-serif;
           margin: 0;
         }
 

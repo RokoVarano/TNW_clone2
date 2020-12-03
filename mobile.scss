@@ -143,8 +143,10 @@
     align-items: flex-start;
     margin-bottom: 30px;
 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr;
+    .frame {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 2fr;
+    }
 
     h2 {
       font-size: 28px;
@@ -278,7 +280,7 @@
       margin-bottom: 24px;
       display: flex;
       flex-flow: column;
-      font-family: Avalon, sans-serif;
+      font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
       letter-spacing: -.015em;
       color: red;
 
@@ -291,12 +293,11 @@
         }
       }
       h2 {
+        font-family: Avalon, sans-serif;
         margin-top: 0;
         margin-bottom: 14px;
         font-size: 28px;
       }
-
-
     }
 
     .card {
