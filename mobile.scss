@@ -143,6 +143,9 @@
     align-items: flex-start;
     margin-bottom: 30px;
 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+
     h2 {
       font-size: 28px;
       font-family: Avalon, sans-serif;

@@ -56,8 +56,6 @@
     .news {
       .frame {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 2fr;
 
         .card-container {
           padding: 12px;
