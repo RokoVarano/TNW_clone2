@@ -5,7 +5,7 @@ This project is a clone of a thenextweb.com website. The page is responsive
 this website can be viewd better on the screen size of of 1920 X 1080 in Mozilla firefox browser.
 you can also download the repo and open the ''index.html" file with Mozilla Firefox.
 
-![screenshot]()
+![screenshot](assets/Screenshot.png)
 
 The purpose of these project it to create a similar looking website of thenexweb.com  using html and css
 
