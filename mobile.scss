@@ -675,4 +675,84 @@
 //BIG CARDS - End
 //WRAPPER CLASS - End
 
+//Footer - start
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .top{
+    padding-top: 40px;
+  }
+  .bottom {
+    padding-bottom: 40px;
+  }
+  .gray {
+    display: flex;
+    background: #131313;
+    .social-media{
+      padding: 0px;
+      list-style-type: none;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      li {
+        display: flex;
+        justify-content: center;
+        background-color: #555;
+        display: inline-block;
+        margin: 10px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        text-align: center;
+        border-radius: 50%;
+        a{
+          color: #fff;
+          i {
+            margin: 6px;
+          }
+        }
+        li:hover {
+        }
+      }
+    }
+    .link-menu{
+      padding: 0px;
+      list-style-type: none;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      li {
+        display: flex;
+        justify-content: center;
+        display: inline-block;
+        padding: 5px;
+        font-size: 13px;
+        text-align: center;
+        a {
+          text-decoration: none;
+          color: #D3D3D3;
+        }
+      }
+    }
+  }
+  .black-footer {
+    background: #000;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    span {
+      width: 60%;
+      color: #fff;
+      font-size: 14px;
+      img{
+        height: 9px;
+        max-width: 100%;
+      }
+    }
+  }
+}
+//Footer - end
+
 
