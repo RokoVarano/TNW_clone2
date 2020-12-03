@@ -110,7 +110,7 @@
 
     h2 {
       font-size: 28px;
-      font-family: Avalon,sans-serif;
+      font-family: Avalon, sans-serif;
       letter-spacing: -.015em;
       margin-top: 0;
       color: red;
@@ -144,7 +144,7 @@
 
         .content {
           margin-left: 5px;
-          font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+          font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
           max-width: 80%;
 
           h4 {
@@ -173,6 +173,7 @@
 
       .card-container1 {
         @extend %card-container;
+
         .picture {
           background: url("assets/charts.jpg") center;
         }
@@ -180,6 +181,7 @@
 
       .card-container2 {
         @extend %card-container;
+
         .picture {
           background: url("assets/woman.png") center;
         }
@@ -187,6 +189,7 @@
 
       .card-container3 {
         @extend %card-container;
+
         .picture {
           background: url("assets/rocket.png") center;
         }
@@ -194,6 +197,7 @@
 
       .card-container4 {
         @extend %card-container;
+
         .picture {
           background: url("assets/venice.png") center;
         }
@@ -201,6 +205,7 @@
 
       .card-container5 {
         @extend %card-container;
+
         .picture {
           background: url("assets/elephant.jpg") center;
         }
@@ -208,6 +213,7 @@
 
       .card-container6 {
         @extend %card-container;
+
         .picture {
           background: url("assets/computers.png") center;
         }
@@ -215,6 +221,7 @@
 
       .card-container7 {
         @extend %card-container;
+
         .picture {
           background: url("assets/spotify.png") center;
         }
@@ -222,6 +229,7 @@
 
       .card-container8 {
         @extend %card-container;
+
         .picture {
           background: url("assets/phone-camera.jpg") center;
         }
@@ -357,7 +365,7 @@
       margin: 0
     }
 
-    section {
+    %card {
       flex-basis: 100%;
       max-width: 100%;
       padding: 8px;
@@ -375,6 +383,7 @@
           text-decoration: none;
         }
       }
+
       ul {
         position: relative;
         list-style: none;
@@ -383,7 +392,6 @@
         font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 
         .picture {
-          background-image: url("assets/slack.jpg");
           background-size: cover;
           background-position: center;
           position: relative;
@@ -420,7 +428,7 @@
 
             h5 {
               margin: 0;
-              font-family: Shentox,sans-serif;
+              font-family: Shentox, sans-serif;
               text-transform: uppercase;
               font-weight: 500;
               line-height: 1.5;
@@ -439,7 +447,7 @@
             }
 
             ul {
-              color: hsla(0,0%,100%,.6);
+              color: hsla(0, 0%, 100%, .6);
               font-size: 12px;
               font-weight: 500;
               line-height: 16px;
@@ -514,6 +522,150 @@
         a {
           color: gray;
           text-decoration: none;
+        }
+      }
+    }
+
+    .card1 {
+      @extend %card;
+
+      ul {
+        .picture {
+          background-image: url("assets/slack.jpg");
+        }
+
+        .pink-card {
+          .photo-link {
+            background-image: url("assets/beard.jpg");
+          }
+        }
+      }
+    }
+
+    .card2 {
+      @extend %card;
+
+      ul {
+        .picture {
+          background-image: url("assets/salesforce-slack.png");
+        }
+
+        .pink-card {
+          .photo-link {
+            background-image: url("assets/spotify.png");
+          }
+        }
+      }
+    }
+
+    .card3 {
+      @extend %card;
+
+      ul {
+        .picture {
+          background-image: url("assets/gadget.png");
+        }
+
+        .pink-card {
+          .photo-link {
+            background-image: url("assets/samsung-phone.jpg");
+          }
+        }
+      }
+    }
+
+    .card4 {
+      @extend %card;
+
+      ul {
+        .picture {
+          background-image: url("assets/computer.jpg");
+        }
+
+        .pink-card {
+          .photo-link {
+            background-image: url("assets/charts.jpg");
+          }
+        }
+      }
+    }
+
+    .card5 {
+      @extend %card;
+
+      ul {
+        .picture {
+          background-image: url("assets/artists.jpg");
+        }
+
+        .pink-card {
+          .photo-link {
+            background-image: url("assets/cards.png");
+          }
+        }
+      }
+    }
+
+    .card6 {
+      @extend %card;
+
+      ul {
+        .picture {
+          background-image: url("assets/Google.png");
+        }
+
+        .pink-card {
+          .photo-link {
+            background-image: url("assets/pinkroom.png");
+          }
+        }
+      }
+    }
+
+    .card7 {
+      @extend %card;
+
+      ul {
+        .picture {
+          background-image: url("assets/computers.png");
+        }
+
+        .pink-card {
+          .photo-link {
+            background-image: url("assets/slack.jpg");
+          }
+        }
+      }
+    }
+
+    .card8 {
+      @extend %card;
+
+      ul {
+        .picture {
+          background-image: url("assets/guytrain.jpg");
+        }
+
+        .pink-card {
+          .photo-link {
+            background-image: url("assets/truck.jpg");
+          }
+        }
+      }
+    }
+
+    .card9 {
+      @extend %card;
+
+      ul {
+        .picture {
+          background-image: url("assets/car-bg-img.jpg");
+        }
+
+        .pink-card {
+          .photo-link {
+            background-image: url("assets/politician.jpg");
+          }
         }
       }
     }
