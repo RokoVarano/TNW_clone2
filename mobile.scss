@@ -670,9 +670,163 @@
       }
     }
   }
+
+  //BIG CARDS - End
+
+  //DEALS - Start
+
+  .deals {
+    margin-bottom: 2em;
+    padding-top: 24px;
+    display: flex;
+    flex-flow: column wrap;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+
+    h2 {
+      margin: 0;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    h4 {
+      margin: 0;
+    }
+
+    h5 {
+      margin: 0
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      color: red;
+      display: flex;
+      justify-content: space-between;
+
+      h2 {
+        font-size: 28px;
+        font-family: Avalon, sans-serif;
+        margin-bottom: 24px;
+      }
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      %card {
+        flex: 0 0 auto;
+        padding: 8px;
+        position: relative;
+        min-height: 75px;
+        margin-bottom: 5px;
+
+        .picture {
+          background-size: cover;
+          background-position: center;
+          left: 0;
+          padding-top: 75px;
+          position: absolute;
+          top: 0;
+          width: 75px;
+        }
+
+        .discount {
+          display: none;
+        }
+
+        h4 {
+          font-size: 14px;
+          padding-left: 80px;
+        }
+
+        .prices {
+          padding-top: 5px;
+          padding-left: 80px;
+          display: flex;
+
+          .old-price {
+            font-size: 12px;
+            text-decoration: line-through;
+            color: #AAAAAA;
+
+          }
+
+          .new-price {
+            font-size: 14px;
+            color: #555555;
+          }
+        }
+      }
+
+      .card1 {
+        @extend %card;
+        .picture {
+          background-image: url("assets/apps.jpg");
+        }
+      }
+
+      .card2 {
+        @extend %card;
+        .picture {
+          background-image: url("assets/stackskills.jpg");
+        }
+      }
+
+      .card3 {
+        @extend %card;
+        .picture {
+          background-image: url("assets/doodle.jpg");
+        }
+      }
+
+      .card4 {
+        @extend %card;
+        .picture {
+          background-image: url("assets/Xsplit.jpg");
+        }
+      }
+
+      .card5 {
+        @extend %card;
+        .picture {
+          background-image: url("assets/python.jpg");
+        }
+      }
+
+      .card6 {
+        @extend %card;
+        .picture {
+          background-image: url("assets/notebook.jpg");
+        }
+      }
+
+      .card7 {
+        @extend %card;
+        .picture {
+          background-image: url("assets/Google.png");
+        }
+      }
+
+      .card8 {
+        @extend %card;
+        .picture {
+          background-image: url("assets/psico.jpg");
+        }
+      }
+    }
+  }
+
+  //DEALS - End
+
 }
 
-//BIG CARDS - End
 //WRAPPER CLASS - End
 
 //Footer - start
