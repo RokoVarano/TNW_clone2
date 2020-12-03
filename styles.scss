@@ -77,6 +77,35 @@
         margin: 0;
       }
     }
+
+    .deals {
+      ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+
+        .card {
+          display: flex;
+          flex-flow: column;
+
+          .picture {
+            background-position: center;
+            min-width: 100%;
+            padding-top: 75%;
+            position: static;
+          }
+
+          h4 {
+            padding: 0;
+          }
+
+          .prices {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+
   }
 }
 
