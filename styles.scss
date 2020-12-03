@@ -40,6 +40,34 @@
         }
       }
     }
+
+    .funding {
+      header {
+        h2 {
+          margin: 0;
+        }
+
+        .links {
+          flex-flow: row;
+          justify-content: flex-start;
+          align-items: flex-end;
+
+          a {
+            margin: 0 20px 0 0;
+          }
+        }
+      }
+
+      .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .card {
+          margin: 12px;
+        }
+      }
+    }
+
   }
 }
 
