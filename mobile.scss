@@ -137,7 +137,7 @@
       padding: 0;
       list-style: none;
 
-      %card-container {
+      .card-container {
         padding: 8px;
         flex-basis: 100%;
         max-width: 100%;
@@ -180,64 +180,48 @@
       }
 
       .card-container1 {
-        @extend %card-container;
-
         .picture {
           background: url("assets/charts.jpg") center;
         }
       }
 
       .card-container2 {
-        @extend %card-container;
-
         .picture {
           background: url("assets/woman.png") center;
         }
       }
 
       .card-container3 {
-        @extend %card-container;
-
         .picture {
           background: url("assets/rocket.png") center;
         }
       }
 
       .card-container4 {
-        @extend %card-container;
-
         .picture {
           background: url("assets/venice.png") center;
         }
       }
 
       .card-container5 {
-        @extend %card-container;
-
         .picture {
           background: url("assets/elephant.jpg") center;
         }
       }
 
       .card-container6 {
-        @extend %card-container;
-
         .picture {
           background: url("assets/computers.png") center;
         }
       }
 
       .card-container7 {
-        @extend %card-container;
-
         .picture {
           background: url("assets/spotify.png") center;
         }
       }
 
       .card-container8 {
-        @extend %card-container;
-
         .picture {
           background: url("assets/phone-camera.jpg") center;
         }
