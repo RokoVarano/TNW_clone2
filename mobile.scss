@@ -1,4 +1,7 @@
-//navbar-code
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   overflow: hidden;
@@ -34,14 +37,12 @@ body {
       margin: 5px;
 
       li {
-        list-style-type: none;
         display: inline;
         box-sizing: border-box;
         padding: 2px;
         margin: 5px;
 
         a {
-          text-decoration: none;
           box-sizing: border-box;
           font-size: 14px;
           color: #d3d3d3;
@@ -79,7 +80,6 @@ body {
       box-sizing: border-box;
 
       a {
-        text-decoration: none;
         box-sizing: border-box;
         font-size: 14px;
         color: #d3d3d3;
@@ -110,8 +110,6 @@ body {
   height: 100vh;
   overflow: auto;
 }
-
-/*style for the footer*/
 
 main footer {
   display: flex;
@@ -173,7 +171,6 @@ main footer {
         text-align: center;
 
         a {
-          text-decoration: none;
           color: #d3d3d3;
         }
       }
@@ -202,8 +199,6 @@ main footer {
 }
 
 .cover {
-
-  //FONTS NEED TO BE IMPORTED
 
   display: flex;
   flex-flow: column;
@@ -243,7 +238,6 @@ main footer {
 
       a {
         color: white;
-        text-decoration: none;
       }
 
       h5 {
@@ -349,7 +343,6 @@ main footer {
 
       a {
         color: red;
-        text-decoration: none;
       }
     }
 
@@ -395,7 +388,6 @@ main footer {
               font-size: 12px;
 
               a {
-                text-decoration: none;
                 color: gray;
                 margin-right: 4px;
               }
@@ -459,7 +451,6 @@ main footer {
     padding-bottom: 2em;
 
     a {
-      text-decoration: none;
       color: inherit;
     }
 
@@ -591,7 +582,6 @@ main footer {
 
         a {
           color: red;
-          text-decoration: none;
         }
       }
 
@@ -654,7 +644,6 @@ main footer {
 
             a {
               color: white;
-              text-decoration: none;
             }
 
             ul {
@@ -708,7 +697,6 @@ main footer {
 
               a {
                 color: red;
-                text-decoration: none;
                 font-family: inherit;
               }
             }
@@ -732,7 +720,6 @@ main footer {
 
         a {
           color: gray;
-          text-decoration: none;
         }
       }
     }
@@ -864,10 +851,6 @@ main footer {
     }
   }
 
-  //BIG CARDS - End
-
-  //DEALS - Start
-
   .deals {
     margin-bottom: 2em;
     padding-top: 24px;
@@ -892,7 +875,6 @@ main footer {
     }
 
     a {
-      text-decoration: none;
       color: inherit;
     }
 

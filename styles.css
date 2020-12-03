@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   overflow: hidden;
@@ -30,14 +34,12 @@ body {
   margin: 5px;
 }
 .black-nav .menu-black ul li {
-  list-style-type: none;
   display: inline;
   box-sizing: border-box;
   padding: 2px;
   margin: 5px;
 }
 .black-nav .menu-black ul li a {
-  text-decoration: none;
   box-sizing: border-box;
   font-size: 14px;
   color: #d3d3d3;
@@ -66,7 +68,6 @@ body {
   box-sizing: border-box;
 }
 .white-nav .menu-white ul li a {
-  text-decoration: none;
   box-sizing: border-box;
   font-size: 14px;
   color: #d3d3d3;
@@ -91,7 +92,6 @@ body {
   overflow: auto;
 }
 
-/*style for the footer*/
 main footer {
   display: flex;
   flex-direction: column;
@@ -146,7 +146,6 @@ main footer .gray .link-menu li {
   text-align: center;
 }
 main footer .gray .link-menu li a {
-  text-decoration: none;
   color: #d3d3d3;
 }
 main footer .black-footer {
@@ -202,7 +201,6 @@ main footer .black-footer p img {
 }
 .cover .article-3 header a, .cover .article-2 header a, .cover .article-1 header a {
   color: white;
-  text-decoration: none;
 }
 .cover .article-3 header h5, .cover .article-2 header h5, .cover .article-1 header h5 {
   font-size: 14px;
@@ -289,7 +287,6 @@ main footer .black-footer p img {
 }
 .wrapper .news h2 a {
   color: red;
-  text-decoration: none;
 }
 .wrapper .news .frame {
   display: flex;
@@ -331,7 +328,6 @@ main footer .black-footer p img {
   font-size: 12px;
 }
 .wrapper .news .frame .card-container .content ul .foot a {
-  text-decoration: none;
   color: gray;
   margin-right: 4px;
 }
@@ -363,7 +359,6 @@ main footer .black-footer p img {
   padding-bottom: 2em;
 }
 .wrapper .funding a {
-  text-decoration: none;
   color: inherit;
 }
 .wrapper .funding header {
@@ -477,7 +472,6 @@ main footer .black-footer p img {
 }
 .wrapper .big-cards .card h2 a {
   color: red;
-  text-decoration: none;
 }
 .wrapper .big-cards .card ul {
   position: relative;
@@ -535,7 +529,6 @@ main footer .black-footer p img {
 }
 .wrapper .big-cards .card ul .picture header a {
   color: white;
-  text-decoration: none;
 }
 .wrapper .big-cards .card ul .picture header ul {
   color: rgba(255, 255, 255, 0.6);
@@ -580,7 +573,6 @@ main footer .black-footer p img {
 }
 .wrapper .big-cards .card ul .pink-card header h4 a {
   color: red;
-  text-decoration: none;
   font-family: inherit;
 }
 .wrapper .big-cards .card ul .pink-card .photo-link {
@@ -598,7 +590,6 @@ main footer .black-footer p img {
 }
 .wrapper .big-cards .card ul a {
   color: gray;
-  text-decoration: none;
 }
 .wrapper .big-cards .card1 ul .picture {
   background-image: url("assets/slack.jpg");
@@ -674,7 +665,6 @@ main footer .black-footer p img {
   margin: 0;
 }
 .wrapper .deals a {
-  text-decoration: none;
   color: inherit;
 }
 .wrapper .deals header {
