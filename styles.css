@@ -772,6 +772,10 @@ main footer .black-footer p img {
   .white-nav .menu-white .icons .bars a {
     color: red;
   }
+
+  .wrapper .big-cards .card {
+    margin-bottom: 25px;
+  }
 }
 @media only screen and (min-width: 940px) and (max-width: 1006px) {
   .black-nav {
@@ -911,6 +915,8 @@ main footer .black-footer p img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    column-gap: 10px;
+    row-gap: 10px;
   }
   .wrapper .big-cards h3 {
     margin: 0;
@@ -1013,6 +1019,8 @@ main footer .black-footer p img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    column-gap: 10px;
+    row-gap: 10px;
   }
   .wrapper .big-cards h3 {
     margin: 0;
@@ -1039,3 +1047,5 @@ main footer .black-footer p img {
     padding-left: 0;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
