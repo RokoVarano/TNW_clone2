@@ -140,9 +140,7 @@
     display: grid;
 
     .article-1 {
-
       header {
-
         h2 {
           font-size: 33px;
           line-height: 1;
@@ -150,11 +148,11 @@
       }
     }
   }
+
   .wrapper {
     width: 80%;
 
     .news {
-
       .frame {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -242,17 +240,14 @@
         }
       }
     }
-
   }
 }
 
 @media only screen and (min-width: 1007px) {
-
   .cover {
     display: grid;
 
     .article-1 {
-
       .logo {
         display: block;
       }
@@ -262,7 +257,7 @@
       }
 
       .link {
-        background: linear-gradient(to top left, black 10%, #FD562C, white);
+        background: linear-gradient(to top left, black 10%, #fd562c, white);
         opacity: 75%;
       }
 
@@ -272,7 +267,6 @@
           line-height: 1;
         }
       }
-
     }
 
     .article-2 {
@@ -316,7 +310,6 @@
             margin: 0;
             max-width: 100%;
           }
-
         }
       }
     }
