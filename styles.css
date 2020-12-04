@@ -162,7 +162,7 @@ body {
   width: 30px;
   height: 30px;
   padding: 5px;
-  margin: 10px;
+  margin: 1vw;
   background-color: #555;
   border-radius: 50%;
   text-align: center;
@@ -946,7 +946,7 @@ body {
   .black-nav .menu-black ul li a {
     box-sizing: border-box;
     color: #d3d3d3;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     padding: 0;
   }
 
