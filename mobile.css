@@ -6,7 +6,22 @@
   color: white;
 }
 
-.cover .article-3, .cover .article-2, .cover .article-1 {
+.wrapper .deals h4 {
+  margin: 0;
+}
+
+.wrapper .deals h5 {
+  margin: 0;
+}
+
+.wrapper .deals a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cover .article-3,
+.cover .article-2,
+.cover .article-1 {
   margin: 4px;
   background-size: cover;
   background-position: center;
@@ -14,7 +29,9 @@
   position: relative;
 }
 
-.cover .article-3 .link, .cover .article-2 .link, .cover .article-1 .link {
+.cover .article-3 .link,
+.cover .article-2 .link,
+.cover .article-1 .link {
   position: absolute;
   top: 0;
   left: 0;
@@ -24,25 +41,107 @@
   background: linear-gradient(to top, black 10%, transparent);
 }
 
-.cover .article-3 header, .cover .article-2 header, .cover .article-1 header {
+.cover .article-3 header,
+.cover .article-2 header,
+.cover .article-1 header {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 14px 12px;
 }
 
-.cover .article-3 header a, .cover .article-2 header a, .cover .article-1 header a {
+.wrapper .funding a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cover .article-3 header a,
+.cover .article-2 header a,
+.cover .article-1 header a {
   color: white;
   text-decoration: none;
 }
 
-.cover .article-3 header h5, .cover .article-2 header h5, .cover .article-1 header h5 {
+.wrapper .big-cards h5 {
+  margin: 0;
+}
+
+.cover .article-3 header h5,
+.cover .article-2 header h5,
+.cover .article-1 header h5 {
   font-size: 14px;
   font-family: Shentox, sans-serif;
   margin: 0;
 }
 
-.cover .article-3 header h2, .cover .article-2 header h2, .cover .article-1 header h2 {
+.wrapper .news h2 {
+  font-size: 28px;
+  font-family: Avalon, sans-serif;
+  letter-spacing: -0.015em;
+  margin-top: 0;
+  color: red;
+  margin-bottom: 24px;
+}
+
+.wrapper .big-cards .card9,
+.wrapper .big-cards .card8,
+.wrapper .big-cards .card7,
+.wrapper .big-cards .card6,
+.wrapper .big-cards .card5,
+.wrapper .big-cards .card4,
+.wrapper .big-cards .card3,
+.wrapper .big-cards .card2,
+.wrapper .big-cards .card1 {
+  flex-basis: 100%;
+  max-width: 100%;
+  padding: 8px;
+}
+
+.wrapper .deals ul .card8,
+.wrapper .deals ul .card7,
+.wrapper .deals ul .card6,
+.wrapper .deals ul .card5,
+.wrapper .deals ul .card4,
+.wrapper .deals ul .card3,
+.wrapper .deals ul .card2,
+.wrapper .deals ul .card1,
+.wrapper .deals ul .big-cards .card9,
+.wrapper .big-cards .deals ul .card9 {
+  flex: 0 0 auto;
+  padding: 8px;
+  position: relative;
+  min-height: 75px;
+  margin-bottom: 5px;
+}
+
+.wrapper .big-cards .deals ul .card8,
+.wrapper .deals ul .big-cards .card8,
+.wrapper .big-cards .deals ul .card7,
+.wrapper .deals ul .big-cards .card7,
+.wrapper .big-cards .deals ul .card6,
+.wrapper .deals ul .big-cards .card6,
+.wrapper .big-cards .deals ul .card5,
+.wrapper .deals ul .big-cards .card5,
+.wrapper .big-cards .deals ul .card4,
+.wrapper .deals ul .big-cards .card4,
+.wrapper .big-cards .deals ul .card3,
+.wrapper .deals ul .big-cards .card3,
+.wrapper .big-cards .deals ul .card2,
+.wrapper .deals ul .big-cards .card2,
+.wrapper .big-cards .deals ul .card1,
+.wrapper .deals ul .big-cards .card1 {
+  flex-basis: 100%;
+  max-width: 100%;
+  padding: 8px;
+}
+
+.wrapper .deals h2 {
+  margin: 0;
+}
+
+.cover .article-3 header h2,
+.cover .article-2 header h2,
+.cover .article-1 header h2 {
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 5px;
@@ -50,7 +149,58 @@
   font-weight: bolder;
 }
 
-.cover .article-3 header ul, .cover .article-2 header ul, .cover .article-1 header ul {
+.wrapper .news ul {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrapper .deals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .gray .social-media li {
+  justify-content: center;
+  background-color: #555;
+  display: inline-block;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.wrapper .funding header a {
+  font-size: 14px;
+  margin-top: 23px;
+}
+
+footer .gray .link-menu li {
+  justify-content: center;
+  display: inline-block;
+  padding: 5px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.wrapper .news h2 a {
+  color: red;
+  text-decoration: none;
+}
+
+footer .gray .link-menu li a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.cover .article-3 header ul,
+.cover .article-2 header ul,
+.cover .article-1 header ul {
   margin: 0;
   font-size: 12px;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
@@ -61,7 +211,9 @@
   padding: 0;
 }
 
-.cover .article-3 header ul li, .cover .article-2 header ul li, .cover .article-1 header ul li {
+.cover .article-3 header ul li,
+.cover .article-2 header ul li,
+.cover .article-1 header ul li {
   margin: 0 2px;
 }
 
@@ -91,26 +243,103 @@
   margin-bottom: 30px;
 }
 
-.wrapper .news h2 {
-  font-size: 28px;
-  font-family: Avalon, sans-serif;
-  letter-spacing: -0.015em;
-  margin-top: 0;
-  color: red;
-  margin-bottom: 24px;
+.wrapper .big-cards h4 {
+  margin: 0;
 }
 
-.wrapper .news h2 a {
+.wrapper .deals ul .card8 h4,
+.wrapper .deals ul .card7 h4,
+.wrapper .deals ul .card6 h4,
+.wrapper .deals ul .card5 h4,
+.wrapper .deals ul .card4 h4,
+.wrapper .deals ul .card3 h4,
+.wrapper .deals ul .card2 h4,
+.wrapper .deals ul .card1 h4 {
+  font-size: 14px;
+  padding-left: 80px;
+}
+
+.wrapper .funding .card .card-header h4 {
+  margin: 0;
+  color: white;
+  padding: 10px 0 10px 80px;
+  background: red;
+  font-size: 18px;
+}
+
+.wrapper .deals ul .big-cards .card9 h4,
+.wrapper .big-cards .deals ul .card9 h4 {
+  font-size: 14px;
+  padding-left: 80px;
+}
+
+.wrapper .funding header h2 a {
+  font-size: 28px;
+}
+
+.wrapper .deals ul .card1 .picture {
+  background-image: url("assets/apps.jpg");
+}
+
+.wrapper .deals ul .card2 .picture {
+  background-image: url("assets/stackskills.jpg");
+}
+
+.wrapper .deals ul .card3 .picture {
+  background-image: url("assets/doodle.jpg");
+}
+
+.wrapper .deals ul .card4 .picture {
+  background-image: url("assets/Xsplit.jpg");
+}
+
+.wrapper .deals ul .card5 .picture {
+  background-image: url("assets/python.jpg");
+}
+
+.wrapper .deals ul .card6 .picture {
+  background-image: url("assets/notebook.jpg");
+}
+
+.wrapper .deals ul .card7 .picture {
+  background-image: url("assets/Google.png");
+}
+
+.wrapper .deals ul .card8 .picture {
+  background-image: url("assets/psico.jpg");
+}
+
+footer .gray .social-media li a {
+  color: #fff;
+}
+
+.wrapper .big-cards .card9 h2 a,
+.wrapper .big-cards .card8 h2 a,
+.wrapper .big-cards .card7 h2 a,
+.wrapper .big-cards .card6 h2 a,
+.wrapper .big-cards .card5 h2 a,
+.wrapper .big-cards .card4 h2 a,
+.wrapper .big-cards .card3 h2 a,
+.wrapper .big-cards .card2 h2 a,
+.wrapper .big-cards .card1 h2 a {
   color: red;
   text-decoration: none;
 }
 
-.wrapper .news ul {
-  display: flex;
-  flex-flow: row wrap;
-  margin: 0;
-  padding: 0;
+.wrapper .big-cards .card9 ul,
+.wrapper .big-cards .card8 ul,
+.wrapper .big-cards .card7 ul,
+.wrapper .big-cards .card6 ul,
+.wrapper .big-cards .card5 ul,
+.wrapper .big-cards .card4 ul,
+.wrapper .big-cards .card3 ul,
+.wrapper .big-cards .card2 ul,
+.wrapper .big-cards .card1 ul {
+  position: relative;
   list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .wrapper .news ul .card-container8,
@@ -126,6 +355,46 @@
   max-width: 100%;
   display: flex;
   height: 75px;
+}
+
+.wrapper .big-cards .card9 ul a,
+.wrapper .big-cards .card8 ul a,
+.wrapper .big-cards .card7 ul a,
+.wrapper .big-cards .card6 ul a,
+.wrapper .big-cards .card5 ul a,
+.wrapper .big-cards .card4 ul a,
+.wrapper .big-cards .card3 ul a,
+.wrapper .big-cards .card2 ul a,
+.wrapper .big-cards .card1 ul a {
+  color: gray;
+  text-decoration: none;
+}
+
+.wrapper .big-cards .card9 ul .picture header a,
+.wrapper .big-cards .card8 ul .picture header a,
+.wrapper .big-cards .card7 ul .picture header a,
+.wrapper .big-cards .card6 ul .picture header a,
+.wrapper .big-cards .card5 ul .picture header a,
+.wrapper .big-cards .card4 ul .picture header a,
+.wrapper .big-cards .card3 ul .picture header a,
+.wrapper .big-cards .card2 ul .picture header a,
+.wrapper .big-cards .card1 ul .picture header a {
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper .big-cards .card9 ul .pink-card header h4 a,
+.wrapper .big-cards .card8 ul .pink-card header h4 a,
+.wrapper .big-cards .card7 ul .pink-card header h4 a,
+.wrapper .big-cards .card6 ul .pink-card header h4 a,
+.wrapper .big-cards .card5 ul .pink-card header h4 a,
+.wrapper .big-cards .card4 ul .pink-card header h4 a,
+.wrapper .big-cards .card3 ul .pink-card header h4 a,
+.wrapper .big-cards .card2 ul .pink-card header h4 a,
+.wrapper .big-cards .card1 ul .pink-card header h4 a {
+  color: red;
+  text-decoration: none;
+  font-family: inherit;
 }
 
 .wrapper .news ul .card-container8 .picture,
@@ -236,13 +505,71 @@
   background: url("assets/phone-camera.jpg") center;
 }
 
-.wrapper .funding {
-  padding-bottom: 2em;
+.wrapper .big-cards .card9 ul .picture header h5,
+.wrapper .big-cards .card8 ul .picture header h5,
+.wrapper .big-cards .card7 ul .picture header h5,
+.wrapper .big-cards .card6 ul .picture header h5,
+.wrapper .big-cards .card5 ul .picture header h5,
+.wrapper .big-cards .card4 ul .picture header h5,
+.wrapper .big-cards .card3 ul .picture header h5,
+.wrapper .big-cards .card2 ul .picture header h5,
+.wrapper .big-cards .card1 ul .picture header h5 {
+  margin: 0;
+  font-family: Shentox, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 13px;
 }
 
-.wrapper .funding a {
-  text-decoration: none;
-  color: inherit;
+.wrapper .big-cards .card9 ul .pink-card header h5,
+.wrapper .big-cards .card8 ul .pink-card header h5,
+.wrapper .big-cards .card7 ul .pink-card header h5,
+.wrapper .big-cards .card6 ul .pink-card header h5,
+.wrapper .big-cards .card5 ul .pink-card header h5,
+.wrapper .big-cards .card4 ul .pink-card header h5,
+.wrapper .big-cards .card3 ul .pink-card header h5,
+.wrapper .big-cards .card2 ul .pink-card header h5,
+.wrapper .big-cards .card1 ul .pink-card header h5 {
+  font-size: 13px;
+  font-family: Shentox, sans-serif;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.wrapper .big-cards .card9 ul .pink-card header h4,
+.wrapper .big-cards .card8 ul .pink-card header h4,
+.wrapper .big-cards .card7 ul .pink-card header h4,
+.wrapper .big-cards .card6 ul .pink-card header h4,
+.wrapper .big-cards .card5 ul .pink-card header h4,
+.wrapper .big-cards .card4 ul .pink-card header h4,
+.wrapper .big-cards .card3 ul .pink-card header h4,
+.wrapper .big-cards .card2 ul .pink-card header h4,
+.wrapper .big-cards .card1 ul .pink-card header h4 {
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.wrapper .deals header {
+  color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .deals header h2 {
+  font-size: 28px;
+  font-family: Avalon, sans-serif;
+  margin-bottom: 24px;
+}
+
+.wrapper .funding {
+  padding-bottom: 2em;
 }
 
 .wrapper .funding header {
@@ -259,13 +586,15 @@
   margin-bottom: 14px;
 }
 
-.wrapper .funding header h2 a {
-  font-size: 28px;
+footer .black-footer span {
+  width: 60%;
+  color: #fff;
+  font-size: 14px;
 }
 
-.wrapper .funding header a {
-  font-size: 14px;
-  margin-top: 23px;
+footer .black-footer span img {
+  height: 9px;
+  max-width: 100%;
 }
 
 .wrapper .funding .card {
@@ -287,14 +616,6 @@
   height: 60px;
   margin: 10px;
   z-index: 10;
-}
-
-.wrapper .funding .card .card-header h4 {
-  margin: 0;
-  color: white;
-  padding: 10px 0 10px 80px;
-  background: red;
-  font-size: 18px;
 }
 
 .wrapper .funding .card .card-header .subtitle {
@@ -330,56 +651,18 @@
   padding: 10px 16px 16px 16px;
   font-size: 12px;
   font-weight: 400;
-  color: #555555;
+  color: #555;
   list-style: none;
 }
 
 .wrapper .funding .card .card-footer span {
-  color: #AAA;
+  color: #aaa;
 }
 
 .wrapper .big-cards {
   margin-bottom: 40px;
   display: flex;
   flex-flow: row wrap;
-}
-
-.wrapper .big-cards h4 {
-  margin: 0;
-}
-
-.wrapper .big-cards h5 {
-  margin: 0;
-}
-
-.wrapper .big-cards .deals ul .card8,
-.wrapper .deals ul .big-cards .card8,
-.wrapper .big-cards .deals ul .card7,
-.wrapper .deals ul .big-cards .card7,
-.wrapper .big-cards .deals ul .card6,
-.wrapper .deals ul .big-cards .card6,
-.wrapper .big-cards .deals ul .card5,
-.wrapper .deals ul .big-cards .card5,
-.wrapper .big-cards .deals ul .card4,
-.wrapper .deals ul .big-cards .card4,
-.wrapper .big-cards .deals ul .card3,
-.wrapper .deals ul .big-cards .card3,
-.wrapper .big-cards .deals ul .card2,
-.wrapper .deals ul .big-cards .card2,
-.wrapper .big-cards .deals ul .card1,
-.wrapper .deals ul .big-cards .card1,
-.wrapper .big-cards .card9,
-.wrapper .big-cards .card8,
-.wrapper .big-cards .card7,
-.wrapper .big-cards .card6,
-.wrapper .big-cards .card5,
-.wrapper .big-cards .card4,
-.wrapper .big-cards .card3,
-.wrapper .big-cards .card2,
-.wrapper .big-cards .card1 {
-  flex-basis: 100%;
-  max-width: 100%;
-  padding: 8px;
 }
 
 .wrapper .big-cards .card9 h2,
@@ -397,35 +680,6 @@
   margin-top: 0;
   color: red;
   margin-bottom: 24px;
-}
-
-.wrapper .big-cards .card9 h2 a,
-.wrapper .big-cards .card8 h2 a,
-.wrapper .big-cards .card7 h2 a,
-.wrapper .big-cards .card6 h2 a,
-.wrapper .big-cards .card5 h2 a,
-.wrapper .big-cards .card4 h2 a,
-.wrapper .big-cards .card3 h2 a,
-.wrapper .big-cards .card2 h2 a,
-.wrapper .big-cards .card1 h2 a {
-  color: red;
-  text-decoration: none;
-}
-
-.wrapper .big-cards .card9 ul,
-.wrapper .big-cards .card8 ul,
-.wrapper .big-cards .card7 ul,
-.wrapper .big-cards .card6 ul,
-.wrapper .big-cards .card5 ul,
-.wrapper .big-cards .card4 ul,
-.wrapper .big-cards .card3 ul,
-.wrapper .big-cards .card2 ul,
-.wrapper .big-cards .card1 ul {
-  position: relative;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .wrapper .big-cards .card9 ul .picture,
@@ -489,23 +743,6 @@
   z-index: 3;
 }
 
-.wrapper .big-cards .card9 ul .picture header h5,
-.wrapper .big-cards .card8 ul .picture header h5,
-.wrapper .big-cards .card7 ul .picture header h5,
-.wrapper .big-cards .card6 ul .picture header h5,
-.wrapper .big-cards .card5 ul .picture header h5,
-.wrapper .big-cards .card4 ul .picture header h5,
-.wrapper .big-cards .card3 ul .picture header h5,
-.wrapper .big-cards .card2 ul .picture header h5,
-.wrapper .big-cards .card1 ul .picture header h5 {
-  margin: 0;
-  font-family: Shentox, sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  line-height: 1.5;
-  font-size: 13px;
-}
-
 .wrapper .big-cards .card9 ul .picture header h2,
 .wrapper .big-cards .card8 ul .picture header h2,
 .wrapper .big-cards .card7 ul .picture header h2,
@@ -518,19 +755,6 @@
   margin-bottom: 6px;
   font-size: 20px;
   color: inherit;
-}
-
-.wrapper .big-cards .card9 ul .picture header a,
-.wrapper .big-cards .card8 ul .picture header a,
-.wrapper .big-cards .card7 ul .picture header a,
-.wrapper .big-cards .card6 ul .picture header a,
-.wrapper .big-cards .card5 ul .picture header a,
-.wrapper .big-cards .card4 ul .picture header a,
-.wrapper .big-cards .card3 ul .picture header a,
-.wrapper .big-cards .card2 ul .picture header a,
-.wrapper .big-cards .card1 ul .picture header a {
-  color: white;
-  text-decoration: none;
 }
 
 .wrapper .big-cards .card9 ul .picture header ul,
@@ -594,54 +818,6 @@
   z-index: 9;
 }
 
-.wrapper .big-cards .card9 ul .pink-card header h5,
-.wrapper .big-cards .card8 ul .pink-card header h5,
-.wrapper .big-cards .card7 ul .pink-card header h5,
-.wrapper .big-cards .card6 ul .pink-card header h5,
-.wrapper .big-cards .card5 ul .pink-card header h5,
-.wrapper .big-cards .card4 ul .pink-card header h5,
-.wrapper .big-cards .card3 ul .pink-card header h5,
-.wrapper .big-cards .card2 ul .pink-card header h5,
-.wrapper .big-cards .card1 ul .pink-card header h5 {
-  font-size: 13px;
-  font-family: Shentox, sans-serif;
-  text-transform: uppercase;
-  line-height: 1.5;
-  margin: 0;
-}
-
-.wrapper .big-cards .card9 ul .pink-card header h4,
-.wrapper .big-cards .card8 ul .pink-card header h4,
-.wrapper .big-cards .card7 ul .pink-card header h4,
-.wrapper .big-cards .card6 ul .pink-card header h4,
-.wrapper .big-cards .card5 ul .pink-card header h4,
-.wrapper .big-cards .card4 ul .pink-card header h4,
-.wrapper .big-cards .card3 ul .pink-card header h4,
-.wrapper .big-cards .card2 ul .pink-card header h4,
-.wrapper .big-cards .card1 ul .pink-card header h4 {
-  max-height: 56px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 100%;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.25;
-}
-
-.wrapper .big-cards .card9 ul .pink-card header h4 a,
-.wrapper .big-cards .card8 ul .pink-card header h4 a,
-.wrapper .big-cards .card7 ul .pink-card header h4 a,
-.wrapper .big-cards .card6 ul .pink-card header h4 a,
-.wrapper .big-cards .card5 ul .pink-card header h4 a,
-.wrapper .big-cards .card4 ul .pink-card header h4 a,
-.wrapper .big-cards .card3 ul .pink-card header h4 a,
-.wrapper .big-cards .card2 ul .pink-card header h4 a,
-.wrapper .big-cards .card1 ul .pink-card header h4 a {
-  color: red;
-  text-decoration: none;
-  font-family: inherit;
-}
-
 .wrapper .big-cards .card9 ul .pink-card .photo-link,
 .wrapper .big-cards .card8 ul .pink-card .photo-link,
 .wrapper .big-cards .card7 ul .pink-card .photo-link,
@@ -671,19 +847,6 @@
   border-bottom: 1px solid gray;
   font-size: 13px;
   padding: 6px 0;
-}
-
-.wrapper .big-cards .card9 ul a,
-.wrapper .big-cards .card8 ul a,
-.wrapper .big-cards .card7 ul a,
-.wrapper .big-cards .card6 ul a,
-.wrapper .big-cards .card5 ul a,
-.wrapper .big-cards .card4 ul a,
-.wrapper .big-cards .card3 ul a,
-.wrapper .big-cards .card2 ul a,
-.wrapper .big-cards .card1 ul a {
-  color: gray;
-  text-decoration: none;
 }
 
 .wrapper .big-cards .card1 ul .picture {
@@ -766,60 +929,8 @@
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
-.wrapper .deals h2 {
-  margin: 0;
-}
-
 .wrapper .deals h3 {
   margin: 0;
-}
-
-.wrapper .deals h4 {
-  margin: 0;
-}
-
-.wrapper .deals h5 {
-  margin: 0;
-}
-
-.wrapper .deals a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.wrapper .deals header {
-  color: red;
-  display: flex;
-  justify-content: space-between;
-}
-
-.wrapper .deals header h2 {
-  font-size: 28px;
-  font-family: Avalon, sans-serif;
-  margin-bottom: 24px;
-}
-
-.wrapper .deals ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.wrapper .deals ul .card8,
-.wrapper .deals ul .card7,
-.wrapper .deals ul .card6,
-.wrapper .deals ul .card5,
-.wrapper .deals ul .card4,
-.wrapper .deals ul .card3,
-.wrapper .deals ul .card2,
-.wrapper .deals ul .card1,
-.wrapper .deals ul .big-cards .card9,
-.wrapper .big-cards .deals ul .card9 {
-  flex: 0 0 auto;
-  padding: 8px;
-  position: relative;
-  min-height: 75px;
-  margin-bottom: 5px;
 }
 
 .wrapper .deals ul .card8 .picture,
@@ -854,20 +965,6 @@
   display: none;
 }
 
-.wrapper .deals ul .card8 h4,
-.wrapper .deals ul .card7 h4,
-.wrapper .deals ul .card6 h4,
-.wrapper .deals ul .card5 h4,
-.wrapper .deals ul .card4 h4,
-.wrapper .deals ul .card3 h4,
-.wrapper .deals ul .card2 h4,
-.wrapper .deals ul .card1 h4,
-.wrapper .deals ul .big-cards .card9 h4,
-.wrapper .big-cards .deals ul .card9 h4 {
-  font-size: 14px;
-  padding-left: 80px;
-}
-
 .wrapper .deals ul .card8 .prices,
 .wrapper .deals ul .card7 .prices,
 .wrapper .deals ul .card6 .prices,
@@ -895,7 +992,7 @@
 .wrapper .big-cards .deals ul .card9 .prices .old-price {
   font-size: 12px;
   text-decoration: line-through;
-  color: #AAAAAA;
+  color: #aaa;
 }
 
 .wrapper .deals ul .card8 .prices .new-price,
@@ -909,39 +1006,7 @@
 .wrapper .deals ul .big-cards .card9 .prices .new-price,
 .wrapper .big-cards .deals ul .card9 .prices .new-price {
   font-size: 14px;
-  color: #555555;
-}
-
-.wrapper .deals ul .card1 .picture {
-  background-image: url("assets/apps.jpg");
-}
-
-.wrapper .deals ul .card2 .picture {
-  background-image: url("assets/stackskills.jpg");
-}
-
-.wrapper .deals ul .card3 .picture {
-  background-image: url("assets/doodle.jpg");
-}
-
-.wrapper .deals ul .card4 .picture {
-  background-image: url("assets/Xsplit.jpg");
-}
-
-.wrapper .deals ul .card5 .picture {
-  background-image: url("assets/python.jpg");
-}
-
-.wrapper .deals ul .card6 .picture {
-  background-image: url("assets/notebook.jpg");
-}
-
-.wrapper .deals ul .card7 .picture {
-  background-image: url("assets/Google.png");
-}
-
-.wrapper .deals ul .card8 .picture {
-  background-image: url("assets/psico.jpg");
+  color: #555;
 }
 
 footer {
@@ -964,28 +1029,11 @@ footer .gray {
 }
 
 footer .gray .social-media {
-  padding: 0px;
+  padding: 0;
   list-style-type: none;
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-footer .gray .social-media li {
-  display: flex;
-  justify-content: center;
-  background-color: #555;
-  display: inline-block;
-  margin: 10px;
-  width: 30px;
-  height: 30px;
-  padding: 5px;
-  text-align: center;
-  border-radius: 50%;
-}
-
-footer .gray .social-media li a {
-  color: #fff;
 }
 
 footer .gray .social-media li a i {
@@ -993,25 +1041,11 @@ footer .gray .social-media li a i {
 }
 
 footer .gray .link-menu {
-  padding: 0px;
+  padding: 0;
   list-style-type: none;
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-footer .gray .link-menu li {
-  display: flex;
-  justify-content: center;
-  display: inline-block;
-  padding: 5px;
-  font-size: 13px;
-  text-align: center;
-}
-
-footer .gray .link-menu li a {
-  text-decoration: none;
-  color: #D3D3D3;
 }
 
 footer .black-footer {
@@ -1020,15 +1054,4 @@ footer .black-footer {
   padding: 40px;
   box-sizing: border-box;
   text-align: center;
-}
-
-footer .black-footer span {
-  width: 60%;
-  color: #fff;
-  font-size: 14px;
-}
-
-footer .black-footer span img {
-  height: 9px;
-  max-width: 100%;
 }
