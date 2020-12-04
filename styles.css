@@ -893,7 +893,7 @@ body {
   font-size: 14px;
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 425px) {
   .black-nav,
   .white-nav .menu-white .tnw {
     display: none;
@@ -926,7 +926,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 940px) and (max-width: 1006px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .black-nav {
     display: block;
     grid-area: blackmenu;
@@ -976,7 +976,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1007px) {
+@media only screen and (min-width: 769px) {
   .logo {
     display: none;
   }
@@ -1022,7 +1022,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 940px) and (max-width: 1006px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .cover {
     display: grid;
   }
@@ -1118,7 +1118,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1007px) {
+@media only screen and (min-width: 769px) {
   .cover {
     display: grid;
   }
