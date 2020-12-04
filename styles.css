@@ -1,10 +1,29 @@
+:root {
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+h2 {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+}
+
 a {
   text-decoration: none;
+}
+
+.inline-border-box {
+  display: inline;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   overflow: hidden;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
@@ -42,10 +61,8 @@ body {
 }
 
 .black-nav .menu-black ul {
-  display: inline;
   padding: 2px;
   margin: 5px;
-  box-sizing: border-box;
   list-style-type: none;
 }
 
@@ -54,10 +71,8 @@ body {
 }
 
 .black-nav .menu-black ul li {
-  display: inline;
-  padding: 2px;
-  margin: 5px;
-  box-sizing: border-box;
+  padding: 0 2px;
+  margin: 0 5px;
 }
 
 .main footer .gray .social-media li a {
@@ -98,14 +113,10 @@ body {
 }
 
 .white-nav .menu-white ul {
-  display: inline;
-  box-sizing: border-box;
   list-style-type: none;
 }
 
 .white-nav .menu-white ul li {
-  display: inline;
-  box-sizing: border-box;
   list-style-type: none;
 }
 
@@ -120,6 +131,8 @@ body {
 }
 
 .white-nav .menu-white .icons {
+  margin: 0;
+  padding: 0;
   float: right;
 }
 
@@ -149,16 +162,12 @@ body {
 }
 
 .main footer .gray .social-media {
-  display: flex;
-  justify-content: center;
   width: 100%;
   padding: 0;
   list-style-type: none;
 }
 
 .main footer .gray .social-media li {
-  display: flex;
-  justify-content: center;
   width: 30px;
   height: 30px;
   padding: 5px;
@@ -173,16 +182,12 @@ body {
 }
 
 .main footer .gray .link-menu {
-  display: flex;
-  justify-content: center;
   width: 100%;
   padding: 0;
   list-style-type: none;
 }
 
 .main footer .gray .link-menu li {
-  display: flex;
-  justify-content: center;
   padding: 5px;
   text-align: center;
   font-size: 13px;
@@ -215,7 +220,6 @@ body {
   padding: 4px;
   background-color: antiquewhite;
   color: white;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   flex-flow: column;
 }
 
@@ -245,15 +249,12 @@ body {
   margin-top: 0;
   margin-bottom: 24px;
   color: red;
-  font-family: Avalon, sans-serif;
-  font-size: 28px;
   letter-spacing: -0.015em;
 }
 
 .wrapper .big-cards h5 {
   flex-basis: 100%;
   max-width: 100%;
-  padding: 8px;
   margin: 0;
 }
 
@@ -287,7 +288,6 @@ body {
 .cover .article-1 header h2 {
   margin-top: 0;
   margin-bottom: 5px;
-  font-family: Avalon, sans-serif;
   font-size: 20px;
   font-weight: bolder;
 }
@@ -363,8 +363,6 @@ body {
 }
 
 .wrapper .news {
-  display: flex;
-  justify-content: center;
   align-items: flex-start;
   margin-bottom: 30px;
   flex-flow: column;
@@ -395,7 +393,6 @@ body {
   position: relative;
   padding: 0;
   margin: 0;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   list-style: none;
 }
 
@@ -415,6 +412,7 @@ body {
 .wrapper .news .frame {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
+  grid-gap: 12px;
   display: flex;
   padding: 0;
   margin: 0;
@@ -427,7 +425,7 @@ body {
   flex-basis: 100%;
   height: 75px;
   max-width: 100%;
-  padding: 8px;
+  padding: 8px 0px;
 }
 
 .wrapper .big-cards .card1 ul .picture {
@@ -517,7 +515,6 @@ body {
 .wrapper .news .frame .card-container .content {
   max-width: 80%;
   margin-left: 5px;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .wrapper .big-cards .card ul .pink-card header h4 {
@@ -626,7 +623,6 @@ body {
   display: flex;
   margin-bottom: 24px;
   color: red;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   letter-spacing: -0.015em;
   flex-flow: column;
 }
@@ -639,13 +635,10 @@ body {
 .wrapper .funding header h2 {
   margin-top: 0;
   margin-bottom: 14px;
-  font-family: Avalon, sans-serif;
-  font-size: 28px;
 }
 
 .wrapper .funding .card {
   background: rgba(255, 68, 34, 0.07);
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .wrapper .funding .card .card-header {
@@ -731,16 +724,12 @@ body {
 
 .wrapper .deals header h2 {
   margin-bottom: 24px;
-  font-family: Avalon, sans-serif;
-  font-size: 28px;
 }
 
 .wrapper .big-cards .card h2 {
   margin-top: 0;
   margin-bottom: 24px;
   color: red;
-  font-family: Avalon, sans-serif;
-  font-size: 28px;
   letter-spacing: -0.015em;
 }
 
@@ -848,7 +837,6 @@ body {
   display: flex;
   padding-top: 24px;
   margin-bottom: 2em;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   flex-flow: column wrap;
 }
 
@@ -983,14 +971,10 @@ body {
 
   .white-nav .menu-white ul {
     list-style-type: none;
-    display: inline;
-    box-sizing: border-box;
   }
 
   .white-nav .menu-white ul li {
     list-style-type: none;
-    display: inline;
-    box-sizing: border-box;
   }
 
   .white-nav .menu-white .icons li {
@@ -1041,14 +1025,10 @@ body {
 
   .white-nav .menu-white ul {
     list-style-type: none;
-    display: inline;
-    box-sizing: border-box;
   }
 
   .white-nav .menu-white ul li {
     list-style-type: none;
-    display: inline;
-    box-sizing: border-box;
   }
 
   .white-nav .menu-white .icons li {
@@ -1079,12 +1059,13 @@ body {
   .wrapper .funding .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
   }
 
   .wrapper .news .frame .card-container {
-    padding: 12px;
     height: auto;
     flex-flow: column;
+    padding: 0;
   }
 
   .wrapper .deals ul .card .picture {
@@ -1122,10 +1103,7 @@ body {
   .wrapper .deals ul .card {
     display: flex;
     flex-flow: column;
-  }
-
-  .wrapper .funding .card-container .card {
-    margin: 12px;
+    padding: 0;
   }
 
   .wrapper .big-cards {
@@ -1143,6 +1121,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    grid-gap: 12px;
+    padding: 0;
   }
 
   .wrapper .deals ul .card h4 {
@@ -1198,12 +1178,13 @@ body {
   .wrapper .funding .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 12px;
   }
 
   .wrapper .news .frame .card-container {
-    padding: 12px;
     height: auto;
     flex-flow: column;
+    padding: 0;
   }
 
   .wrapper .deals ul .card .picture {
@@ -1246,10 +1227,7 @@ body {
   .wrapper .deals ul .card {
     display: flex;
     flex-flow: column;
-  }
-
-  .wrapper .funding .card-container .card {
-    margin: 12px;
+    padding: 0;
   }
 
   .wrapper .funding .card-container .final {
@@ -1271,6 +1249,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
+    grid-gap: 12px;
+    padding: 0;
   }
 
   .wrapper .deals ul .card h4 {
