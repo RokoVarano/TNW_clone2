@@ -1,3 +1,12 @@
+:root {
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+h2 {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+}
+
 a {
   text-decoration: none;
 }
@@ -212,7 +221,6 @@ body {
   padding: 4px;
   background-color: antiquewhite;
   color: white;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   flex-flow: column;
 }
 
@@ -242,15 +250,12 @@ body {
   margin-top: 0;
   margin-bottom: 24px;
   color: red;
-  font-family: Avalon, sans-serif;
-  font-size: 28px;
   letter-spacing: -0.015em;
 }
 
 .wrapper .big-cards h5 {
   flex-basis: 100%;
   max-width: 100%;
-  padding: 8px;
   margin: 0;
 }
 
@@ -284,7 +289,6 @@ body {
 .cover .article-1 header h2 {
   margin-top: 0;
   margin-bottom: 5px;
-  font-family: Avalon, sans-serif;
   font-size: 20px;
   font-weight: bolder;
 }
@@ -390,7 +394,6 @@ body {
   position: relative;
   padding: 0;
   margin: 0;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   list-style: none;
 }
 
@@ -512,7 +515,6 @@ body {
 .wrapper .news .frame .card-container .content {
   max-width: 80%;
   margin-left: 5px;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .wrapper .big-cards .card ul .pink-card header h4 {
@@ -621,7 +623,6 @@ body {
   display: flex;
   margin-bottom: 24px;
   color: red;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   letter-spacing: -0.015em;
   flex-flow: column;
 }
@@ -634,13 +635,10 @@ body {
 .wrapper .funding header h2 {
   margin-top: 0;
   margin-bottom: 14px;
-  font-family: Avalon, sans-serif;
-  font-size: 28px;
 }
 
 .wrapper .funding .card {
   background: rgba(255, 68, 34, 0.07);
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .wrapper .funding .card .card-header {
@@ -726,16 +724,12 @@ body {
 
 .wrapper .deals header h2 {
   margin-bottom: 24px;
-  font-family: Avalon, sans-serif;
-  font-size: 28px;
 }
 
 .wrapper .big-cards .card h2 {
   margin-top: 0;
   margin-bottom: 24px;
   color: red;
-  font-family: Avalon, sans-serif;
-  font-size: 28px;
   letter-spacing: -0.015em;
 }
 
@@ -843,7 +837,6 @@ body {
   display: flex;
   padding-top: 24px;
   margin-bottom: 2em;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   flex-flow: column wrap;
 }
 
