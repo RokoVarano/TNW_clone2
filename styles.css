@@ -1,5 +1,5 @@
 :root {
-    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 h2 {
@@ -75,14 +75,6 @@ body {
   margin: 0 5px;
 }
 
-.main footer .gray .social-media li a {
-  color: #fff;
-}
-
-.main footer .gray .link-menu li a {
-  color: #d3d3d3;
-}
-
 .wrapper .funding header .links a {
   margin-top: 23px;
   font-size: 14px;
@@ -94,6 +86,14 @@ body {
 
 .wrapper .big-cards .card ul a {
   color: gray;
+}
+
+.main footer .gray .social-media li a {
+  color: #fff;
+}
+
+.main footer .gray .link-menu li a {
+  color: #d3d3d3;
 }
 
 .black-nav .menu-black ul li a:hover {
@@ -165,6 +165,12 @@ body {
   width: 100%;
   padding: 0;
   list-style-type: none;
+}
+
+.cover .article-3 header ul li,
+.cover .article-2 header ul li,
+.cover .article-1 header ul li {
+  margin: 0 2px;
 }
 
 .main footer .gray .social-media li {
@@ -310,12 +316,6 @@ body {
   list-style: none;
 }
 
-.cover .article-3 header ul li,
-.cover .article-2 header ul li,
-.cover .article-1 header ul li {
-  margin: 0 2px;
-}
-
 .cover .article-1 {
   grid-area: a;
   background-image: url("assets/car-bg-img.jpg");
@@ -425,7 +425,7 @@ body {
   flex-basis: 100%;
   height: 75px;
   max-width: 100%;
-  padding: 8px 0px;
+  padding: 8px 0;
 }
 
 .wrapper .big-cards .card1 ul .picture {
