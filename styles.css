@@ -60,18 +60,6 @@ body {
   box-sizing: border-box;
 }
 
-.black-nav .menu-black ul li a {
-  box-sizing: border-box;
-  color: #d3d3d3;
-  font-size: 14px;
-}
-
-.white-nav .menu-white ul li a {
-  box-sizing: border-box;
-  color: #d3d3d3;
-  font-size: 14px;
-}
-
 .main footer .gray .social-media li a {
   color: #fff;
 }
@@ -893,10 +881,22 @@ body {
   font-size: 14px;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 767px) {
   .black-nav,
   .white-nav .menu-white .tnw {
     display: none;
+  }
+
+  .black-nav .menu-black ul li a {
+    box-sizing: border-box;
+    color: #d3d3d3;
+    font-size: 14px;
+  }
+
+  .white-nav .menu-white ul li a {
+    box-sizing: border-box;
+    color: #d3d3d3;
+    font-size: 14px;
   }
 
   .nav-bar {
@@ -926,11 +926,32 @@ body {
   }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1002px) {
   .black-nav {
     display: block;
     grid-area: blackmenu;
     box-sizing: border-box;
+  }
+
+  .black-nav .menu-black ul li {
+    margin: 0.1vw;
+    border: 1px solid red;
+    padding: 0;
+
+  }
+
+  .black-nav .menu-black ul li a {
+    box-sizing: border-box;
+    color: #d3d3d3;
+    font-size: 1.2vw;
+    padding: 0;
+    border: 1px solid red;
+  }
+
+  .white-nav .menu-white ul li a {
+    box-sizing: border-box;
+    color: #d3d3d3;
+    font-size: 1.5vw;
   }
 
   .nav-bar {
@@ -976,9 +997,21 @@ body {
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1003px) {
   .logo {
     display: none;
+  }
+
+  .black-nav .menu-black ul li a {
+    box-sizing: border-box;
+    color: #d3d3d3;
+    font-size: 13px;
+  }
+
+  .white-nav .menu-white ul li a {
+    box-sizing: border-box;
+    color: #d3d3d3;
+    font-size: 13px;
   }
 
   .nav-bar {
@@ -1022,7 +1055,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1002px) {
   .cover {
     display: grid;
   }
@@ -1118,7 +1151,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1003px) {
   .cover {
     display: grid;
   }
