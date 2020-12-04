@@ -724,6 +724,11 @@ body {
   flex-flow: row wrap;
 }
 
+.wrapper .big-cards .card {
+  margin-top: 20px;
+  min-width: 100%;
+}
+
 .wrapper .deals header h2 {
   margin-bottom: 24px;
   font-family: Avalon, sans-serif;
@@ -1130,6 +1135,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    grid-gap: 15px;
   }
 
   .wrapper .big-cards h3 {
@@ -1257,6 +1263,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    grid-gap: 20px;
   }
 
   .wrapper .big-cards h3 {
