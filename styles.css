@@ -7,6 +7,11 @@ body {
   overflow: hidden;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   width: 100%;
   background-color: #000;
@@ -149,16 +154,12 @@ body {
 }
 
 .main footer .gray .social-media {
-  display: flex;
-  justify-content: center;
   width: 100%;
   padding: 0;
   list-style-type: none;
 }
 
 .main footer .gray .social-media li {
-  display: flex;
-  justify-content: center;
   width: 30px;
   height: 30px;
   padding: 5px;
@@ -173,16 +174,12 @@ body {
 }
 
 .main footer .gray .link-menu {
-  display: flex;
-  justify-content: center;
   width: 100%;
   padding: 0;
   list-style-type: none;
 }
 
 .main footer .gray .link-menu li {
-  display: flex;
-  justify-content: center;
   padding: 5px;
   text-align: center;
   font-size: 13px;
@@ -363,8 +360,6 @@ body {
 }
 
 .wrapper .news {
-  display: flex;
-  justify-content: center;
   align-items: flex-start;
   margin-bottom: 30px;
   flex-flow: column;
