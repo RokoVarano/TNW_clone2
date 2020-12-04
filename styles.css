@@ -131,6 +131,8 @@ body {
 }
 
 .white-nav .menu-white .icons {
+  margin: 0;
+  padding: 0;
   float: right;
 }
 
