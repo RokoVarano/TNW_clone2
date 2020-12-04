@@ -724,6 +724,11 @@ body {
   flex-flow: row wrap;
 }
 
+.wrapper .big-cards .card {
+  margin-top: 20px;
+  min-width: 100%;
+}
+
 .wrapper .deals header h2 {
   margin-bottom: 24px;
   font-family: Avalon, sans-serif;
@@ -881,7 +886,7 @@ body {
   font-size: 14px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .black-nav,
   .white-nav .menu-white .tnw {
     display: none;
@@ -926,7 +931,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1002px) {
+@media only screen and (min-width: 768px) and (max-width: 1003px) {
   .black-nav {
     display: block;
     grid-area: blackmenu;
@@ -935,9 +940,7 @@ body {
 
   .black-nav .menu-black ul li {
     margin: 0.1vw;
-    border: 1px solid red;
     padding: 0;
-
   }
 
   .black-nav .menu-black ul li a {
@@ -945,7 +948,6 @@ body {
     color: #d3d3d3;
     font-size: 1.2vw;
     padding: 0;
-    border: 1px solid red;
   }
 
   .white-nav .menu-white ul li a {
@@ -1055,7 +1057,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1002px) {
+@media only screen and (min-width: 768px) and (max-width: 1003px) {
   .cover {
     display: grid;
   }
@@ -1130,6 +1132,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    grid-gap: 15px;
   }
 
   .wrapper .big-cards h3 {
@@ -1257,6 +1260,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    grid-gap: 20px;
   }
 
   .wrapper .big-cards h3 {
